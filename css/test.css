@@ -1,0 +1,317 @@
+body {
+	width: 100%;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	
+	font-size: 36px;
+	color: #fff;
+
+	background-image: url(../img/back1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;	
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+
+
+
+
+/* Header */
+
+.header {
+	width: 100%;
+	height: 80px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+	background-color: rgba(0,0,0,0.5);
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 3px;
+}
+
+
+
+
+
+/* Logo */
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo__img {	
+	width: 52px;
+	height: auto;
+	margin-right: 15px;
+}
+
+.logo__text {
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-size: 30px;
+}
+
+
+
+
+
+
+/* Navigation */
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 24px;
+	width: 50%;
+}
+
+.nav__link {
+	position: relative;
+
+	text-decoration: none;
+	color: #fff;
+
+	transition: color .2s linear;
+}
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	margin-top: 2px;
+
+	background-color: #fff;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	-webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+
+.nav__link:hover:after {
+	width: 100%;
+}
+
+
+
+
+
+
+/* Slick Slider */
+
+.slider {
+	display: flex;
+
+	position: relative;
+	padding: 0px 60px;
+	min-width: 0;
+}
+
+.slider__item {
+	margin: 0 20px 0;
+	line-height: 40px;
+}
+
+.slider .slick-arrow {
+	position: absolute;
+	top: 50%;
+	margin: -30px 0px 0px 0px;
+	z-index: 10;
+	font-size: 0;
+	width: 30px;
+	height: 60px;
+	border: none;
+}
+
+.slider .slick-arrow.slick-prev {
+	left: 0;
+	background: url('../img/prev.svg') 0 0 / 100% no-repeat;
+	margin-left: 20px;
+}
+
+.slider .slick-arrow.slick-next {
+	right: 0;
+	background: url('../img/next.svg') 0 0 / 100% no-repeat;
+	margin-right: 20px;
+}
+
+/* Ограничивающая оболочка */
+.slick-list {
+	overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track{
+	display: flex;	
+	align-items: flex-start;
+}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+
+/* Слайд */
+.slick-slide{}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+
+/* Слайд основной */
+.slick-slide.slick-current{}
+
+/* Слайд по центру */
+.slick-slide.slick-center{}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+
+
+
+
+
+/* Form */
+
+.form {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+
+	width: 62.5%;
+	height: 500px;
+
+	margin: 0 auto;
+	margin-top: 75px;
+	background-color: #fff;
+	color: #000;
+}
+
+.form__questions {
+	font-weight: 700;
+}
+
+
+.form__answers {
+	margin-bottom: 25px;
+}
+
+
+
+
+
+/* Result */
+
+.result {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+}
+
+.result__count {
+	font-weight: 700;
+}
+
+.result__title {}
+.result__button {}
+
+
+
+
+
+
+@media only screen and (max-width: 537px) {
+	
+
+	.logo__text {
+		font-size: 23px;
+	}
+
+	.nav {
+		font-size: 17px;
+	}
+}
+
+@media only screen and (max-width: 1080px) {
+
+	body {
+		font-size: 20px;		
+	}
+
+	.header__inner {
+		justify-content: initial;
+		align-items: initial;
+
+		flex-direction: column;	
+		justify-content: center;
+		align-items: center;	
+		
+		padding-top: 0px;
+		width: 97%;
+	}
+
+	.logo {
+		margin-bottom: 15px;
+	}
+
+	.logo__img {	
+		width: 22px;
+		margin-right: 7px;
+	}
+
+	.nav {
+		width: 90%;
+	}
+
+	.slider {
+		padding: 0 25px;
+	}
+
+	.slider__item {
+		line-height: 28px;
+		padding-top: 30px;
+	}
+
+	.slider .slick-arrow {
+		width: 22px;
+		height: 44px;
+	}
+
+	.slider .slick-arrow.slick-prev {
+		margin-left: 8px;
+	}
+
+	.slider .slick-arrow.slick-next {
+		margin-right: 8px;
+	}
+
+	.form {
+		width: 93%;
+		height: 100%;
+	}
+
+}
+
+
+
+

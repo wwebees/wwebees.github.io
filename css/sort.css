@@ -1,0 +1,409 @@
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	
+	font-size: 24px;
+	color:#black ;
+  
+
+   
+    background-position: center center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-size: cover;  
+    
+    background:
+       
+        linear-gradient(
+          rgba(0, 0, 0, 0.4), 
+          rgba(0, 0, 0, 0.4)
+        ),
+       
+     url(../img/p.jpg);
+    
+    
+}
+
+
+
+
+
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    
+}
+
+.nadpis{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 300;
+    color: #ebf0ea;
+    margin-top: 63px;   
+ 
+
+ 
+}
+
+
+
+
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.nav{
+    display: flex;
+    font-size: 18px;
+    font-weight: 700;
+    
+    
+}
+.nav_link{
+    margin-left: 70px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav_link:hover {
+    
+    text-decoration: underline;
+}
+
+/* Header */
+
+.header {
+	width: 100%;
+	height: 80px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+	background-color: rgba(0,0,0,0.5);
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+    
+}
+
+.header_logo {
+	display: flex;
+    align-items: center;
+    padding-top: 0.6%;
+    
+	
+}
+
+/* Logo */
+
+.logo_img {
+	width: 100%;
+	max-width: 52px;
+	height: auto;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+
+.logo_text {
+ 	color: #fff;
+ 	text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    
+}
+
+.form-wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    max-width: 100%;
+    max-height: 100%;
+    width: 900px;
+    height: 500px;
+    
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color:rgba(170, 175, 167, 0.63);
+        opacity: 0.8;
+    color: #000;
+    cursor: pointer;
+    
+       
+}
+
+
+.form{
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+}
+
+.photo{
+
+    margin: 0 auto;
+    max-height: 100%;
+    height: 300px;
+    width: auto;
+ 
+}
+
+.varianty_otveta{
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-bottom: 20px;
+    font-size: 35px;
+    justify-content: center;
+    margin-left: 55px;
+    
+}
+
+
+.buttt{
+
+    width: 250px;
+    height: 40px;
+     cursor: pointer;
+}
+
+.but{
+    
+    margin: 0 auto;
+     
+}
+
+.yelow{
+    color:#efef12;
+    margin-left: 5px;
+   
+    font-weight: 500;
+     cursor: pointer;
+}
+.green{
+    color: #50c878;
+    margin-left: 5px;
+     cursor: pointer;
+   
+    font-weight: 500;
+}
+.blue{
+    color: #6600ff;
+    margin-left: 5px;
+     cursor: pointer;
+      font-weight: 500;
+}
+.red{
+    color: #ff033e;
+    margin-left: 5px;
+     cursor: pointer;
+      font-weight: 500;
+}
+
+.form_result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+
+
+
+
+
+/* Slick Slider */
+
+/* Слайдер */
+.slick-slider{
+  min-width: 0;
+}
+
+/* Слайдер запущен */
+.slick-slider.slick-initialized{}
+
+/* Слайдер с точками */
+.slick-slider.slick-dotted{}
+
+/* Ограничивающая оболочка */
+.slick-list {
+  overflow: hidden;
+}
+
+/* Лента слайдов */
+.slick-track{
+  display: flex;  
+  align-items: flex-start;
+}
+
+/* Слайд */
+.slick-slide{}
+
+/* Слайд активный (показывается) */
+.slick-slide.slick-active{}
+
+/* Слайд основной */
+.slick-slide.slick-current{}
+
+/* Слайд по центру */
+.slick-slide.slick-center{}
+
+/* Клонированный слайд */
+.slick-slide.slick-cloned{}
+
+/* Стрелка */
+.slick-arrow{}
+
+/* Стрелка влево */
+.slick-arrow.slick-prev{}
+
+/* Стрелка вправо */
+.slick-arrow.slick-next{}
+
+/* Стрелка не активная */
+.slick-arrow.slick-disabled{}
+
+/* Точки (булиты) */
+.slick-dots{}
+
+.slick-dots li{}
+
+/* Активная точка */
+.slick-dots li.slick-active{}
+
+/* Элемент точки */
+.slick-dots li button{}
+
+
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+  min-width: 0;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin: -30px 0px 0px 0px;
+  z-index: 10;
+  font-size: 0;
+  width: 30px;
+  height: 50px;
+  border: none;
+    
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url('../img/Vector%20(1).svg') 0 0 / 100% no-repeat;
+    margin-left: 15px;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url('../img/Vector.svg') 0 0 / 100% no-repeat;
+    margin-right: 15px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1080px) {
+    body {
+        font-size: 50px;
+    }
+    
+    .photo {
+        height: 400px;
+    }
+    .form-wrapper {
+        height: 600px;
+        margin-top: 70px;
+    } 
+    .nadpis{
+         margin-top: 120px; 
+        font-size: 50px;
+        text-align: center;
+    }
+   
+    .varianty_otveta{
+        font-size: 35px;
+    
+    }
+    .header_inner {
+        justify-content: initial;
+		align-items: initial;
+
+		flex-direction: column;	
+		justify-content: center;
+		align-items: center;	
+		
+		padding-top: 0px;
+		width: 97%;
+        
+    }
+    .header {
+        height: 120px; 
+    
+    }
+    
+    .nav_link {
+        font-size: 29px;
+    }
+    
+    
+    .header_logo {
+    
+    }
+    
+    
+    
+    
+    
+    .slider .slick-arrow.slick-next {
+        margin-right: 50px;
+     
+     
+    }
+    
+    .slider .slick-arrow.slick-prev {
+         margin-left: 50px;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

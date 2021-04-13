@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+    <meta charset="UTF-8" />
+        <title>WeeBees</title>
+        <link rel="stylesheet" href="css/sort.css" />
+        <link rel="stylesheet" href="css/sort_slick.css"/>
+    </head>
+    <body>
+<header class="header">
+    <div class="container">
+        <div class="header_inner">
+
+            <div class="header_logo">
+                <a href="index.html"><img src="img/Group%20(1).png" class="logo_img"></a>
+                <a href="index.html" class="logo_text">WeeBees</a>
+            </div>
+            <nav class="nav">
+			     <a class="nav_link" href="index.html#1">Узнать</a>
+                 <a class="nav_link" href="index.html#2">Проверить</a>
+                 <a class="nav_link" href="index.html#3">Сделать</a>
+                 <a class="nav_link" href="index.html#">Изучить</a>
+            </nav>	
+		</div>
+</div>
+        </header>
+        
+        <h1 class="nadpis">В какой цвет мусорного бака вы выбросите предмет?</h1>
+        <div class="form-wrapper">
+
+        
+        <form name="myform" class="form">
+            <div class="slider">
+            
+            <div class="slider_item"> 
+                
+                <img class="photo" src="img/%D0%B1%D1%83%D1%82%D1%8B%D0%BB%D0%BA%D0%B0.png"><br>
+                <div class="varianty_otveta">
+                    <input type="radio" name="q1" value="a" id="hui"><label for="hui" class="red">Красный</label>
+                    <input type="radio"  name="q1" value="b" id="huii"><label for="huii"  class="blue">Голубой</label>
+                    <input type="radio" name="q1" value="c" id="huiii"><label for="huiii"  class="green">Зелёный</label>
+                    <input type="radio" name="q1" value="d" id="huiiii"><label for="huiiii"  class="yelow">Жёлтый</label>   
+                </div>
+            </div>
+        
+        
+           <div class="slider_item">
+                <img class="photo" src="img/ufp.png"><br>
+                <div class="varianty_otveta">
+                    <input type="radio" name="q2" value="a" id="huui"><label for="huui" class="red">Красный</label>
+                    <input type="radio"  name="q2" value="b" id="huuui"><label for="huuui"  class="blue">Голубой</label>
+                    <input type="radio" name="q2" value="c" id="huuuui"><label for="huuuui"  class="green">Зелёный</label>
+                    <input type="radio" name="q2" value="d" id="huuuuui"><label for="huuuuui"  class="yelow">Жёлтый</label>    
+                </div>
+           </div>
+       
+        
+            <div class="slider_item">
+                <img class="photo" src="img/%D0%B6%D0%B5%D1%81%D1%82%D1%8F%D0%BD%D0%B0%D1%8F%20%D0%B1%D0%B0%D0%BD%D0%BA%D0%B0.png"><br>
+                <div class="varianty_otveta">
+                    <input type="radio" name="q3" value="a" id="pu"><label for="pu" class="red">Красный</label>
+                    <input type="radio"  name="q3" value="b" id="puu"><label for="puu"  class="blue">Голубой</label>
+                    <input type="radio" name="q3" value="c" id="puuu"><label for="puuu"  class="green">Зелёный</label>
+                    <input type="radio" name="q3" value="d" id="puuuu"><label for="puuuu"  class="yelow">Жёлтый</label>
+                </div>
+            </div>
+       
+        <div class="slider_item">
+                <img class="photo" src="img/%D1%81%D1%82%D0%B5%D0%BA%D0%BB%D0%BE.png"><br>
+                <div class="varianty_otveta">
+                    <input type="radio" name="q4" value="a" id="ppu"><label for="ppu" class="red">Красный</label>
+                    <input type="radio"  name="q4" value="b" id="pppu"><label for="pppu"  class="blue">Голубой</label>
+                    <input type="radio" name="q4" value="c" id="ppppu"><label for="ppppu"  class="green">Зелёный</label>
+                    <input type="radio" name="q4" value="d" id="pppppu"><label for="pppppu"  class="yelow">Жёлтый</label>   
+                </div>
+            
+               
+        </div>
+               
+        <div class="slider_item form_result">
+            <div class="form_result_title" id="title">
+            </div>
+        
+        Ваш результат:
+  
+            <div class="form_result_count" id="result">
+            </div>
+
+            <div class="but">
+                <input class="buttt" type="button" value="Получить результат" onclick="check()">
+            </div>
+        </div>
+            
+            </div>
+        </form>
+        
+                <p><i class="arrow right"></i></p>
+        </div>
+            
+        
+        <script>
+            
+          function check() {
+                var count=0;
+                var q1=document.myform.q1.value;
+                var q2=document.myform.q2.value;
+                var q3=document.myform.q3.value;
+                var q4=document.myform.q4.value;
+            
+
+               
+
+                if (q1 == "a") count++;
+                if (q2 == "d") count++;
+                if (q3 == "a") count++;
+                if (q4 == "c") count++;
+    
+
+              
+
+                if (count == 4) {
+                    document.getElementById("title").innerHTML = "Вы молодец,справились с задачей!";
+                } else if (count <= 3) {
+                    document.getElementById("title").innerHTML = "Пока что ваше знание в сортировке не велико, развивайте его!";
+                } else {
+                    document.getElementById("title").innerHTML = "Плохо!";
+                };
+
+                  document.getElementById("result").innerHTML = `${count} баллов `;
+                }
+        
+        
+        </script>
+            
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/sort_script.js"></script>
+        
+        
+</body>
+</html>
