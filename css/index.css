@@ -428,7 +428,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 1921px) and (max-width: 10000px) {
 
     body {
-        background-image: url(images/huge2.jpg);
+        background-image: url(../img/huge2.jpg);
     }
 }
 
@@ -473,7 +473,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
     body {
-    background-image: url(images/mobile.jpg);
+    background-image: url(../img/mobile.jpg);
 
 }
 }
