@@ -1,46 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/index.css">
-    <title>WeBees</title>
-
-    <style>
-        html {
-            scroll-behavior: smooth; 
-        }
-
-        body {
-            background-image: url(img/119611317_m_1.jpg);
-            background-repeat: no-repeat;
-            background-size: 100% 1040px;
-        }
-    </style>
+    <head>
+        <meta charset="UTF-8">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/index.css">
+        <title>WeBees</title>
 </head>
 
 <body>
 
-        <header class="header">
-            <div class="container">
-                <div class="header__inner">
+<header class="header">
+    <div class="container">
+		<div class="header__inner">
+			<div class="logo">
+				<a href="index.html">
+					<img src="img/globe.svg" class="header__img" alt="">
+				</a>
+				<a href="#" class="header__name">WeBees</a>
+			</div>
 
-                   <div class="header__logo">
-                       <img src="img/globe.svg" width="52" height="52" alt="">
-                   </div>
-
-                   <div class="header__name">WeBees</div>
-
-                   <nav class="nav">
-                       <a class="nav__link" href="#1">Узнать</a>
-                       <a class="nav__link" href="#2">Проверить</a>
-                       <a class="nav__link" href="#3">Сделать</a>
-                       <a class="nav__link" href="#">Изучить</a>
-                   </nav>
-
-                </div>
-            </div>
-        </header>
+			<nav class="nav">
+				<a class="nav__link" href="#1">Узнать</a>
+				<a class="nav__link" href="#2">Проверить</a>
+				<a class="nav__link" href="#3">Сделать</a>
+				<a class="nav__link" href="#">Изучить</a>
+			</nav>
+		</div>
+    </div>
+</header>
 
 
 <!-- Intro -->
@@ -48,13 +35,18 @@
 <div class="intro">
     <div class="container">
         <div class="intro__inner">
-            <h1 class="intro__title">Они страдают из-за нас:
+            <h1 class="intro__title">Они страдают из-за нас:<br/>
             еще не поздно это исправить</h1>
 
-            <nav class="intro__geo">
-                <img src="img/place_1.svg" width="41" height="41" alt="">
-                <a href="#"><h2 class="intro__subtitle">Индонезия, Индийский океан</h2></a>
-            </nav>
+
+           <div class="intro__geo">
+            <a href="#">
+                <img src="img/place_1.svg" class="place__img" width="41" height="41" alt="">
+            </a>
+            <a href="#" class="intro__subtitle">Индонезия, Индийский океан</a>
+            </div>
+
+
 
 
             <a class="btn btn--red" href="map.html">Узнать больше</a>
@@ -71,10 +63,8 @@
     <div class="check">
         <div class="check__item">
             <img class="check__icon" src="img/care.svg" width="346,24" height="398,34" alt="">
-            <h4 class="check__title">Пройдите тест и<br> узнайте, насколько вы<br> <span class="check__friendly">“eco-friendly”</span></h4>
+            <h4 class="check__title">Пройдите тест,<br>насколько вы<br> <span class="check__friendly">“eco-friendly”</span></h4>
             <a class="btn btn--red" href="test.html">Пройти!</a>
-
-
         </div>
 
         <div class="check__item">
@@ -84,45 +74,45 @@
         </div>
 
     </div>
-
-
 </div>
-
-
-
 
 
 <!-- 3 -->
 <a name="3"></a>
 <div class="container">
-<div class="checklist">
+	<div class="checklist">
+		<h3 class="checklist__title">Создайте свой чеклист<br/> эко-привычек</h3>
 
-    <h3 class="checklist__title">Создайте свой чеклист<br/> эко-привычек</h3>
+	    <div class="checklist__item">
+	            <img class="checklist__img" src="img/care.svg" width="380,19" height="512" alt="">
+	    </div>
 
-        <div class="checklist__item">
-                <img class="checklist__img" src="img/care.svg" width="380,19" height="512" alt="">
-        </div>
+	    <div class="checklist__item2">
 
+	        <div class="checklist__content">
+		        <a href="#">
+		            <img src="img/clipboard.svg" style="width: 68px; height: 64px;" alt="">
+		        </a>
+		        <a href="#" class="checklist__subtitle">Ознакомьтесь со списком</a>
+	        </div>
 
-        <div class="checklist__item2">
+	        <div class="checklist__content">
+		        <a href="#">
+		            <img src="img/comment.svg" style="width: 68px; height: 64px;" alt="">
+		        </a>
+		        <a href="#" class="checklist__subtitle">Выберите пункты для себя</a>
+	        </div>
 
-            <div class="cheklist__content">
-                <img src="img/clipboard.svg" style="float:left; width: 68px; height: 64px;"><h5 class="checklist__subtitle">Ознакомьтесь со списком</h5>
-            </div>
+	        <div class="checklist__content">
+		        <a href="#">
+		            <img src="img/road-map.svg" style="width: 68px; height: 64px;" alt="">
+		        </a>
+		        <a href="#" class="checklist__subtitle">Следуйте новым привычкам</a>
+	        </div>
 
-            <div class="cheklist__content">
-                <img src="img/comment.svg" style="float:left; width: 68px; height: 64px;"><h5 class="checklist__subtitle">Выберите пункты для себя</h5>
-            </div>
-
-            <div class="cheklist__content">
-                <img src="img/road-map.svg" style="float:left; width: 68px; height: 64px;"><h5 class="checklist__subtitle">Следуйте новым привычкам</h5>
-            </div>
-
-            <a class="btn__checklist btn--red" href="check-list.html">Создать чек-лист</a>
-
-        </div>
-
-</div>
+	        <a class="btn__checklist btn--red" href="check-list.html">Создать чек-лист</a>
+	    </div>
+	</div>
 </div>
 
 </body>
