@@ -90,7 +90,6 @@ img:hover{
 
 @media screen and (max-width: 768px){
 	.problem_items{
-
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
