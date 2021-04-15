@@ -119,12 +119,12 @@ img:hover{
 
 	.section_title{
 	margin: 10px;
-    font-size: 20px;
+     	font-size: 20px;
     font-weight: 700;
     color: #171717;
     line-height: 70px; 
     font-family:  'Roboto', normal;
-    letter-spacing: 10px; 
+    letter-spacing: 10px;
 	text-align: center;
 	
 	}
