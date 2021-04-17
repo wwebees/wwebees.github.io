@@ -208,13 +208,12 @@ opacity: 1;
 }
 
 .na_img_1 {
+	
 	position: absolute;
 	top: 13vw;
-	left: 9vw;
+    left: 9vw;
 	opacity: 0;
-	z-index: 100;
-	
-
+	z-index: 1000;
 
 }
 
@@ -548,8 +547,6 @@ a.na1:before { content: ''; position: absolute; top: 0; left: 0; right: 0; botto
 
 a.na1:hover:before,
 a.na1:hover:after { opacity: 1; }
-
-}
 
 .na_img_4 {
 	position: absolute;
