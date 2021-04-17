@@ -1,5 +1,6 @@
 <style>
 
+
 h1, h2, h3, h4, h5, h6 {
    margin: 0; 
    }
@@ -13,6 +14,9 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+
+
+ 
 .cl_3 {
 	height: 22vw;
 }
@@ -238,7 +242,7 @@ a.na1 { display: block; position: relative; }
 
 a.na1:after {  content: ''; position: absolute; top: 0; left: 0; right: 0.65vw; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; }
 
-a.na1:before { content: ''; position: absolute; top: 0; left: 0 right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 0; }
+a.na1:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 0; }
 
 a.na1:hover:before,
 a.na1:hover:after { opacity: 1; }
@@ -438,7 +442,6 @@ top: -148px;
 .okean{
 	background:  url("../img/ooo.jpg") center no-repeat;
 	-webkit-background-size: cover;
-
     margin: 0;
 	width: 100vw;
 	height: 47vw;
