@@ -29,15 +29,29 @@ body{
 	flex-direction: row;
 	margin: 0 auto;
 }
+
 .problem_item{
 	position: relative;	
+}
+
+.problem_item_3 {
+    padding-top: 6px;
+    position: relative;  
+}
+
+.problem_item_3:hover .problem_title{
+	opacity: 1;
+	cursor: pointer;
 }
 
 .problem_item:hover .problem_title{
 	opacity: 1;
 	cursor: pointer;
+    transition: opacity 0.3s linear;
 }
+
 .problem_title{
+    color: white;
 	position: absolute;
 	top: 50%;
     left: 27%;
@@ -55,6 +69,7 @@ img{
 img:hover{
 	opacity: 0.5;
 	cursor: pointer;
+    transition: opacity 0.3s linear;
 }
     
 @media only screen and (max-device-width: 1500px) {
