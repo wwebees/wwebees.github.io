@@ -1,6 +1,5 @@
 <style>
 
-
 h1, h2, h3, h4, h5, h6 {
    margin: 0; 
    }
@@ -17,16 +16,6 @@ h1, h2, h3, h4, h5, h6 {
 
 
  
-.cl_3 {
-	height: 22vw;
-}
-.cl_2 {
-	height: 22vw;
-}
-.cl_1 {
-	height: 34vw;
-}
-
 .cl1 {
 	height: 28vw;
 }
@@ -224,6 +213,7 @@ opacity: 1;
 	left: 9vw;
 	opacity: 0;
 	z-index: 100;
+	
 
 
 }
@@ -457,92 +447,67 @@ top: -148px;
 
 @media only screen and (max-device-width: 800px) {
 #row {
-	display: block;
+	display: flex;
+	flex-direction: column;
 	width: 100%;
 	margin: 0 auto;
-	padding-top: 0.7vw;
+	padding-top: 0vw;
 	font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
 	font-size: 2.05vw;
 	color: white;
-	height: 60vw;
-  
+
+     
+}
+.ad_otst {
+	padding-top: 1vw;
 }
   #cl_1 {
   width: 100%;
-  height: 65%;
+  height: 45vw;
   }
-#cl2 {
-  position: relative;
-  top: 1vw;
+#cl_2 {
+ 
   width: 100%;
-  height: 70%;
+  height: 50vw;
   }
-#cl3 {
-  position: relative;
-  top: 22.3vw;
+#cl_3 {
+
   width: 100%;
-  height: 90%;
+  height: 70vw;
   }
-#cl4 {
-  position: relative;
-  top: 23.3vw;
+#cl_4 {
+
   width: 100%;
-  height: 60%;
+  height: 45vw;
+}
+
+#cl_5 {
+  width: 100%;
+  height: 65vw;
+  }
+#cl_6 {
+ 
+  width: 100%;
+  height: 45vw;
+  }
+#cl_7 {
+
+  width: 100%;
+  height: 45vw;
+  }
+#cl_8 {
+
+  width: 100%;
+  height: 65vw;
 }
 
 
 
-
-a#cl_1 { display: block; position: relative; }
-
-a#cl_1:after {  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 1; }
-
-a#cl_1:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 1; }
-
-a#cl_1:hover:before,
-a#cl_1:hover:after { opacity: 1; }
-
-
-
-
-a#cl_4 { display: block; position: relative; }
-
-a#cl_4:after {  content: ''; position: absolute; top: 23.3vw; left: 0; right: 0; bottom: -23.3vw; background: rgba(0,0,0,.5);  opacity: 0; }
-
-a#cl_4:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 0; }
-
-a#cl_4:hover:before,
-a#cl_4:hover:after { opacity: 1; }
-
-
-
-
-a#cl_2 { display: block; position: relative; }
-
-a#cl_2:after {  content: ''; position: absolute; top: 1vw; left: 0; right: 0; bottom: -1vw; background: rgba(0,0,0,.5);  opacity: 0; }
-
-a#cl_2:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 20px; background: url("..img/b1.png"); opacity: 0; }
-
-a#cl_2:hover:before,
-a#cl_2:hover:after { opacity: 1; }
-
-
-
-
-a#cl_3 { display: block; position: relative; }
-
-a#cl_3:after {  content: '';  position: absolute; top: 22.15vw; left: 0; right: 0; bottom: -22.4vw; background: rgba(0,0,0,.5);  opacity: 0; }
-
-a#cl_3:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 0; }
-
-a#cl_3:hover:before,
-a#cl_3:hover:after { opacity: 1; }
-
 .asia_t1 {
 	position: absolute;
-	top: 17vw;
+	top: 20vw;
 	left: 30vw;
 	font-size: 4vw;
 	opacity: 0;
@@ -551,7 +516,7 @@ a#cl_3:hover:after { opacity: 1; }
 }	
 .asia_t2 {
 	position: absolute;
-	top: 19vw;
+	top: 23vw;
 	left: 21vw;
 	font-size: 4vw;
 	opacity: 0;
@@ -560,8 +525,8 @@ a#cl_3:hover:after { opacity: 1; }
 }
 .asia_t3 {
 	position: absolute;
-	top: 46vw;
-	left: 16vw;
+	top: 33vw;
+	left: 17vw;
 	font-size: 4vw;
 	opacity: 0;
 	z-index: 100;
@@ -569,11 +534,58 @@ a#cl_3:hover:after { opacity: 1; }
 }
 .asia_t4 {
 	position: absolute;
-	top: 38vw;
+	top: 20vw;
 	left: 20vw;
 	font-size: 4vw;
 	opacity: 0;
 	z-index: 100;
+}
+a.na1 { display: block; position: relative; }
+
+a.na1:after {  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; }
+
+a.na1:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 0; }
+
+a.na1:hover:before,
+a.na1:hover:after { opacity: 1; }
+
+}
+
+.na_img_4 {
+	position: absolute;
+	top: 30vw;
+	left: 29vw;
+	opacity: 0;
+	z-index: 1000;
+    font-size: 4vw;
+
+}
+.na_img_3 {
+	position: absolute;
+	top: 20vw;
+	left: 32vw;
+	opacity: 0;
+	z-index: 1000;
+    font-size: 4vw;
+}
+
+
+.na_img_2 {
+	position: absolute;
+	top: 20vw;
+    left: 25vw;
+	opacity: 0;
+	z-index: 1000;
+    font-size: 4vw;
+}
+
+.na_img_1 {
+	position: absolute;
+	top: 30vw;
+	left: 30vw;
+	opacity: 0;
+	z-index: 100;
+    font-size: 4vw;
 
 }
 }
