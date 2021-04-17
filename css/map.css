@@ -229,7 +229,7 @@ opacity: 1;
 
 a.na1 { display: block; position: relative; }
 
-a.na1:after {  content: ''; position: absolute; top: 0; left: 0; right: 0.65vw; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; }
+a.na1:after {  content: ''; position: absolute; top: 0; left: 0; right: 0.65vw; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; transition: 0.3s; }
 
 a.na1:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 0; }
 
@@ -240,7 +240,7 @@ a.na1:hover:after { opacity: 1; }
 
 a.na { display: block; position: relative; }
 
-a.na:after {  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; }
+a.na:after {  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; transition: 0.3s;}
 
 a.na:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 0; }
 
@@ -251,7 +251,7 @@ a.na:hover:after { opacity: 1; }
 
 a.sa_ { display: block; position: relative; }
 
-a.sa_:after {  content: ''; position: absolute; top: -149px; left: 0; right: 0; bottom: 149px; background: rgba(0,0,0,.5);  opacity: 0; }
+a.sa_:after {  content: ''; position: absolute; top: -149px; left: 0; right: 0; bottom: 149px; background: rgba(0,0,0,.5);  opacity: 0; transition: 0.3s; }
 
 a.sa_:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url(icon-path); opacity: 0; }
 
@@ -261,7 +261,7 @@ a.sa_:hover:after { opacity: 1; }
 
 a.sa { display: block; position: relative; }
 
-a.sa:after {  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; }
+a.sa:after {  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; transition: 0.3s;}
 
 a.sa:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url(icon-path); opacity: 0; }
 
@@ -541,7 +541,7 @@ top: -148px;
 }
 a.na1 { display: block; position: relative; }
 
-a.na1:after {  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; }
+a.na1:after {  content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.5);  opacity: 0; transition: 0.3s;}
 
 a.na1:before { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: url("..img/b1.png"); opacity: 0; }
 
