@@ -1,4 +1,3 @@
-
 * {
 	padding: 0;
 	margin: 0;
@@ -7,7 +6,6 @@ body{
 	box-sizing: border-box;
 
 }
-
 
 .section_title{
 	margin: 20px;
@@ -28,23 +26,33 @@ body{
 }
 
 
+
+
 img{
-	
 	width: 98%;
 }
+.about_img{
+	width: 98%;
+	margin: 5px;
+	background: rgba(0, 0, 0, .5);		
+}
+
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .6;
+}
+
+
 
 .problem_item{
-	position: relative;
-}
-.problem_item:hover .problem_title{
-	opacity: 1;
-	cursor: pointer;
+	
+	position: relative;		
 }
 
 .problem_title{
 	
 	position: absolute;
-	
 	font-size: 36px;
 	font-weight: 700;
 	text-align: center;
@@ -54,19 +62,10 @@ img{
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 	color: #FFFFFF;
-	opacity: 0;
-	z-index: 3;
-
-	
+	opacity: 1;
+	z-index: 3;	
 }
 
-
-
-img:hover{
-	opacity: 0.5;
-	background: rgba(0,0,0,.5);
-	cursor: pointer;
-}
 .container{
 	max-width: 1500px;
 	margin: 0px auto;
@@ -94,9 +93,8 @@ img:hover{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
 	.problem_items{
-
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
@@ -111,14 +109,22 @@ img:hover{
     font-family:  'Roboto', normal;
     letter-spacing: 13px; 
 	text-align: center;
-	
 	}
+
+	.about_img{
 	
+	background: rgba(0, 0, 0, .5);
+		
+	}
+	.about_img img{
+	opacity: 0.7;
+
+	}
+
 }
 
-@media screen and (max-width: 424px){
+@media screen and (max-width: 426px){
 	.problem_items{
-
 	display: flex;
 	flex-direction: column;
 	margin: 0 auto;
@@ -133,7 +139,21 @@ img:hover{
     font-family:  'Roboto', normal;
     letter-spacing: 10px; 
 	text-align: center;
-	
 	}
+	.problem_title{
+	position: absolute;
+	font-size: 25px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	opacity: 1;
+	z-index: 2;	
+}
+	
 	
 }
