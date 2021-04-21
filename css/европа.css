@@ -32,10 +32,6 @@ img{
 .problem_item{
 	position: relative;
 }
-.problem_item:hover .problem_title{
-	opacity: 1;
-	cursor: pointer;
-}
 
 .problem_title{
 	
@@ -55,9 +51,16 @@ img{
 }
 
 
-img:hover{
-	opacity: 0.5;
-	cursor: pointer;
+.about_img{
+	width: 98%;
+	margin: 5px;
+	background: rgba(0, 0, 0, .5);		
+}
+
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .6;
 }
 .container{
 	max-width: 1500px;
