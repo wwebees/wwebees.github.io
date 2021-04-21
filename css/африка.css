@@ -66,10 +66,16 @@ img{
 	width: 95%;
 }
 
-img:hover{
-	opacity: 0.5;
-	cursor: pointer;
-    transition: opacity 0.3s linear;
+.about_img{
+	width: 95%;
+	margin: 5px;
+	background: rgba(0, 0, 0, .5);		
+}
+
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .6;
 }
     
 @media only screen and (max-device-width: 1500px) {
