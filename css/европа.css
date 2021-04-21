@@ -46,6 +46,7 @@ img{
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 	color: #FFFFFF;
+	z-index: 3;
 	opacity: 1;
 	
 }
