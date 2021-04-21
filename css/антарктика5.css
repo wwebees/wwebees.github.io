@@ -31,7 +31,17 @@ body{
 img{
 	width: 98%;
 }
+.about_img{
+	width: 98%;
+	margin: 5px;
+	background: rgba(0, 0, 0, .5);		
+}
 
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .6;
+}
 
 
 
