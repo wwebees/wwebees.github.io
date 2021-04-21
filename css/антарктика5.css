@@ -109,11 +109,8 @@ img{
     font-family:  'Roboto', normal;
     letter-spacing: 13px; 
 	text-align: center;
-	}
-
-	
-
-
+	}	
+}
 
 @media screen and (max-width: 426px){
 	.problem_items{
@@ -146,8 +143,12 @@ img{
 	opacity: 1;
 	z-index: 2;	
 }
-	
-	
+		
 }
+
+
+
+
+
 
 
