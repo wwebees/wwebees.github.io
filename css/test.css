@@ -98,7 +98,7 @@ body {
 	top: 0;
 	left: -100%;
 
-	width: 80%;
+	width: 55%;
 	height: 100%;
 
 	margin: 0;
@@ -121,8 +121,10 @@ body {
 	color: #333;
 
 	font-family: "Roboto", sans-serif;
-	font-size: 20px;
+	font-size: 22px;
 	font-weight: 600;
+
+	padding: 30px 60px;
 
 	text-decoration: none;
 }
@@ -359,6 +361,14 @@ body {
 
 	.nav {
 		font-size: 17px;
+	}
+
+	.menu__box {
+		width: 75%;
+	}
+
+	.menu__item {
+		padding: 30px 30px;
 	}
 }
 
