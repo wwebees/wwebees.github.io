@@ -123,3 +123,59 @@ img {
     padding-top: 3vw;    
     }  
 }
+	
+@media screen and (max-width: 769px){
+    .problem_items{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    }
+
+    .section_title{
+    margin: 20px;
+    font-size: 27px;
+    font-weight: 700;
+    color: #171717;
+    line-height: 70px; 
+    font-family:  'Roboto', normal;
+    letter-spacing: 13px; 
+    text-align: center;
+    }
+
+    
+
+}
+
+@media screen and (max-width: 426px){
+    .problem_items{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    }
+
+    .section_title{
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #171717;
+    line-height: 70px; 
+    font-family:  'Roboto', normal;
+    letter-spacing: 10px; 
+    text-align: center;
+    }
+    .problem_title{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    opacity: 1;
+    z-index: 2; 
+}    
+}
+
