@@ -29,26 +29,22 @@ body{
 	flex-direction: row;
 	margin: 0 auto;
 }
+.about_img{
+	width: 95%;
+	margin: 5px;
+	background: rgba(0, 0, 0, .5);		
+}
+
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .6;
+}
 
 .problem_item{
 	position: relative;	
 }
 
-.problem_item_3 {
-    padding-top: 6px;
-    position: relative;  
-}
-
-.problem_item_3:hover .problem_title{
-	opacity: 1;
-	cursor: pointer;
-}
-
-.problem_item:hover .problem_title{
-	opacity: 1;
-	cursor: pointer;
-    transition: opacity 0.3s linear;
-}
 
 .problem_title{
     color: white;
