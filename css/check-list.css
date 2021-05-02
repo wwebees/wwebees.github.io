@@ -4,7 +4,7 @@ body {
     font-family: 'Roboto Slab', serif;
     font-size: 36px;
     color: #000000;
-    background-image: url ("img/check-list-back.jpg");
+    background-image: url(../img/check-list-back.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
