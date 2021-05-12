@@ -155,14 +155,13 @@
 				<div class="result__title" id="title">
 				</div>
 				
-				Ваш результат:
+				<div class="result__text" id="text">
+				</div>
 	
 				<div class="result__count" id="result">
 				</div>
 
-				<div class="result__button">
-					<input type="button" value="Получить результат" onclick="check()">
-				</div>
+				<input class="result__button" type="button" value="Получить результат" onclick="check()">
 			</div>
 		</div>
 	</form>
@@ -201,6 +200,7 @@
 				document.getElementById("title").innerHTML = "Вы здорово продвинулись на пути к экологичному образу жизни! Так держать!";
 			};
 
+			document.getElementById("text").innerHTML = "Ваш результат:";
 			document.getElementById("result").innerHTML = `${count} баллов`;
 			count=0;
 		} 
