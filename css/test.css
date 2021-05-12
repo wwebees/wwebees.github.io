@@ -313,9 +313,10 @@ body {
 	height: 500px;
 
 	margin: 0 auto;
-	margin-top: 75px;
+	margin-top: 45px;
 	background-color: #fff;
 	color: #000;
+	border-radius: 27px;
 }
 
 .form__questions {
@@ -340,12 +341,35 @@ body {
 	text-align: center;
 }
 
+.result__title {}
+
 .result__count {
 	font-weight: 700;
+	margin-top: 15px;
 }
 
-.result__title {}
-.result__button {}
+.result__text {
+	margin-top: 15px;
+}
+
+.result__button {
+	width: 250px;
+    height: 40px;
+    cursor: pointer;
+    border: none;
+    
+    border-radius: 16px;
+    color: #black;
+    font-weight: 500;
+    font-size: 17px;
+
+    margin-top: 15px;
+}
+
+.result__button:hover {
+    opacity: 0.6;
+    transition: opacity 0.2s linear;
+}
 
 
 
