@@ -138,7 +138,29 @@ background-image: url(../img/p.jpg);
     
     
 
+/* Header */
 
+.header {
+	width: 100%;
+	height: 80px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+	background-color: rgba(0,0,0,0.5);
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 3px;
+}
 
 
 
@@ -178,6 +200,7 @@ background-image: url(../img/p.jpg);
     
 }
 
+/*
 .nav{
     display: flex;
     font-size: 18px;
@@ -195,9 +218,11 @@ background-image: url(../img/p.jpg);
     
     text-decoration: underline;
 }
+*/
 
 /* Header */
 
+/*
 .header {
 	width: 100%;
 	height: 80px;
@@ -217,7 +242,9 @@ background-image: url(../img/p.jpg);
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
+*/
     
+/*
 }
 
 .header_logo {
@@ -226,6 +253,75 @@ background-image: url(../img/p.jpg);
     padding-top: 0.6%;
     
 	
+*/
+/*}*/
+
+/* Navigation */
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 24px;
+	width: 50%;
+}
+
+.nav__link {
+	position: relative;
+
+	text-decoration: none;
+	color: #fff;
+
+	transition: color .2s linear;
+}
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	margin-top: 2px;
+
+	background-color: #fff;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	-webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+
+.nav__link:hover:after {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+/* Logo */
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo__img {	
+	width: 52px;
+	height: auto;
+	margin-right: 15px;
+}
+
+.logo__text {
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-size: 30px;
 }
 
 /* Logo */
@@ -335,6 +431,7 @@ background-image: url(../img/p.jpg);
       margin-right: 12px;
     font-weight: 500;
      cursor: pointer;
+    font-size: 32px;
     
 }
 .green{
@@ -566,18 +663,40 @@ background-image: url(../img/p.jpg);
 	.menu__item {
 		padding: 30px 30px;
 	}
+    .yelow{
+   font-size: 45px;
+    
 }
+.green{
+color: #68e563;
+     font-size: 45px;
+    
+}
+.blue{
+    font-size: 45px;
+    
+}
+.red{
+  font-size: 45px;
+}
+}
+
+
+
+
+
+
 
 @media only screen and (max-width: 1080px) {
 
 	body {
-		font-size: 20px;		
+		font-size: 25px;		
 	}
 
        .form-wrapper {
         height: 600px;
         width: 900px;
-        margin-top: 200px;
+        margin-top: 350px;
      
     } 
     
@@ -655,6 +774,8 @@ background-image: url(../img/p.jpg);
 
 
 
+
+/*
 .yelow{
    font-size: 45px;
     
@@ -672,9 +793,8 @@ color: #68e563;
   font-size: 45px;
 }
 
+*/
 
-
-}
 
 
 
