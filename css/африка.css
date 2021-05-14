@@ -38,7 +38,19 @@ body{
 .about_img img{
 	width: 100%;
 	display: block;
-	opacity: .6;
+	
+}
+.problem_item:hover .about_img img{
+	opacity: 0.3;
+	background-color: rgba(0, 0, 0, .5);
+	transition: 0.3s;
+	z-index: 10;
+}
+
+.problem_item:hover .problem_title{
+	opacity: 1;
+	transition: 0.3s;
+	z-index: 100;
 }
 
 .problem_item{
