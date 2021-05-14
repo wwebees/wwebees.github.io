@@ -672,6 +672,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .books_title {
+    color: #171717;
     font-size: 60px;
     font-weight: 700;
     text-align: center;
@@ -679,6 +680,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .books__subtitle {
+    color: #171717;
     font-size: 48px;
     margin-top: 50px;
 }
@@ -732,6 +734,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .slider__item {
+    color: #171717;
     text-align: center;
     opacity: 0.5;
     transition: all 0.3s ease 0s;
@@ -757,6 +760,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .movie__subtitle {
+    color: #171717;
     font-size: 48px;
     margin-bottom: 50px;
 
@@ -772,6 +776,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .movie__item {
+    color: #171717;
     max-width: 100%;
     display: block;
     width: 25%;
