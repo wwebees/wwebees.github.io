@@ -45,7 +45,7 @@ img{
 	position: relative;
 }
 .problem_item:hover .about_img img{
-	opacity: 0.4;
+	opacity: 0.3;
 	background-color: rgba(0, 0, 0, .5);
 	transition: 0.3s;
 	z-index: 10;
@@ -227,6 +227,18 @@ img{
 	text-align: center;
 	
 	}
+	.about_img{
+	width: 98%;
+	margin: 5px;
+			
+}
+
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .3;
+	
+}
 	burger-menu {
 		visibility: initial;
 	}
@@ -266,6 +278,19 @@ img{
 	color: #FFFFFF;
 	opacity: 1;
 	z-index: 2;	
+}
+	
+	.about_img{
+	width: 98%;
+	margin: 5px;
+			
+}
+
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .3;
+	
 }
 	.burger-menu {
 		visibility: initial;
