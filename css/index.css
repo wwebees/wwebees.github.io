@@ -643,6 +643,16 @@ h1, h2, h3, h4, h5, h6 {
         .container{
             max-width: none;
         }
+            .mov {
+            display: block;
+          text-align: center;
+        }
+
+        .movie__item {
+
+            width: auto;
+            padding-bottom: 25px;
+      }
         }
 
 
