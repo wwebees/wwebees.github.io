@@ -26,41 +26,37 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .menu__button {
-	display: flex;
-	align-items: center;
-	position: fixed;
-	top: 3vw;
-	left: 3vw;
-
-	width: 3.5vw;
-	height: 3.5vw;
-
-	cursor: pointer;
-	z-index: 1002120000;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top: 13vh;
+    left: 13vh;
+    width: 25vh;
+    height: 25vh;
+    cursor: pointer;
+    z-index: 1002120000;
 }
 
 .menu__button > span, 
 .menu__button > span::before,
 .menu__button > span::after {
-	display: block;
-	position: absolute;
-
-	width: 100%;
-	height: 0.4vw;
-
-	background-color: #fff;
+display: block;
+    position: absolute;
+    width: 100%;
+    height: 4vh;
+    background-color: #fff;
 }
 
 
 
 .menu__button > span::before {
 	content: '';
-	top: -8px;
+	top: -8vh;
 }
 
 .menu__button > span::after {
 	content: '';
-	top: 8px;
+	top: 8vh;
 }
 
 .menu__box {
@@ -88,18 +84,15 @@ h1, h2, h3, h4, h5, h6 {
 
 
 .menu__item {
-	display: block;
-	padding: 12px 24px;
+display: block;
+    padding: 40vh 0vh 0vh 15vh;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 30vh;
+    font-weight: 600;
 
-	color: #333;
-
-	font-family: "Roboto", sans-serif;
-	font-size: 22px;
-	font-weight: 600;
-
-	padding: 30px 60px;
-
-	text-decoration: none;
+    text-decoration: none;
+  
 }
 
 .menu__item:hover {
@@ -472,7 +465,7 @@ a.sa:hover:after { opacity: 1; }
 	top: -9.6vw;
 	height: 32.6vw;
 }
-#geo:hover img { width: 4.25%; }
+#geo:hover img { width: 35.5vh; }
 
 
 
@@ -937,6 +930,7 @@ a.sa:hover:after { opacity: 1; }
 
 @media only screen and (max-device-width: 1024px) {
 	
+
 #okean {
 
 width: 900vh;
@@ -988,7 +982,7 @@ width: 900vh;
 }
 .geo7 {
     position: absolute;
-    top: 340vh;
+    top: 335vh;
     left: 620vh;
     z-index: 100;
     width: 35vh;
@@ -1244,9 +1238,7 @@ a.sa:hover:after { opacity: 1; }
 		width: 75%;
 	}
 
-	.menu__item {
-		padding: 30px 30px;
-	}
+
 
 .burger-menu {
 		visibility: initial;
@@ -1511,11 +1503,14 @@ a.sa:hover:after { opacity: 1; }
     font-size: 4vw;
 
 }
+
+
+#geo:hover img { width: 39vh; }
 }
 
 
 
-
+/*
 @media only screen and (max-device-width: 650px) {
 .menu__button > span, 
 .menu__button > span::before,
@@ -1684,8 +1679,8 @@ a.sa:hover:after { opacity: 1; }
 	z-index: 1002120000;
 }
 }
-
-
+*/
+/*
 
 @media only screen and (max-device-width: 800px) {
 td{
