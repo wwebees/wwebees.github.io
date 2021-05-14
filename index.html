@@ -9,35 +9,25 @@
 
 <body>
 
-<div class="header">
-    <div class="header__inner">
-        <div class="logo">
-            <a href="index.html">
-                <img src="img/globe.png" class="logo__img">
-            </a>
-            <a href="index.html" class="logo__text">WeeBees</a>
+<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/globe.svg" class="header__img" alt="">
+                </a>
+                <a href="#" class="header__name">WeBees</a>
+            </div>
+
+            <nav class="nav">
+                <a class="nav__link" href="#1">Узнать</a>
+                <a class="nav__link" href="#2">Проверить</a>
+                <a class="nav__link" href="#3">Сделать</a>
+                <a class="nav__link" href="#">Изучить</a>
+            </nav>
         </div>
-
-        <nav class="nav">
-            <a href="index.html#1" class="nav__link">Узнать</a>
-            <a href="index.html#2" class="nav__link">Проверить</a>
-            <a href="index.html#3" class="nav__link">Сделать</a>
-            <a href="index.html#" class="nav__link">Изучить</a>
-        </nav>  
     </div>
-</div>
-
-<div class="burger-menu">
-    <input type="checkbox" id="menu__toggle">
-    <label for="menu__toggle" class="menu__button"><span></span></label>
-
-    <ul class="menu__box">
-        <li><a href="index.html#1" class="menu__item">Узнать</a></li>
-        <li><a href="index.html#2" class="menu__item">Проверить</a></li>
-        <li><a href="index.html#3" class="menu__item">Сделать</a></li>
-        <li><a href="index.html#" class="menu__item">Изучить</a></li>
-    </ul>
-</div>
+</header>
 
 
 <!-- Intro -->
@@ -72,15 +62,15 @@
 <div class="container">
     <div class="check">
         <div class="check__item">
-            <img class="check__icon" src="img/care.svg" width="346,24" height="398,34" alt="">
+            <img class="check__icon" src="img/care.svg" width="356,24" height="408,34" alt="">
             <h4 class="check__title">Пройдите тест,<br>насколько вы<br> <span class="check__friendly">“eco-friendly”</span></h4>
-            <a class="btn btn--red" href="test.html">Пройти!</a>
+            <a class="btncheck btn--red" href="test.html">Пройти!</a>
         </div>
 
         <div class="check__item">
-            <img class="check__icon2" src="img/glass-bin.svg" width="339" height="322,45" alt="">
-            <h4 class="check__title">Проверьте свои<br> знания в сортировке<br> <span class="check__friendly">отходов</span></h4>
-            <a class="btn btn--red" href="sort.html">Попробовать!</a>
+            <img class="check__icon2" src="img/glass-bin.svg" width="320" height="302,45" alt="">
+            <h4 class="check__title">Проверьте свои<br> знания в <br> <span class="check__friendly">сортировке</span></h4>
+            <a class="btncheck btn--red" href="sort.html">Попробовать!</a>
         </div>
 
     </div>
@@ -89,92 +79,98 @@
 
 <!-- 3 -->
 <a name="3"></a>
-<div class="container">
-	<div class="checklist">
-		<h3 class="checklist__title">Создайте свой чеклист<br/> эко-привычек</h3>
+<div class="checklist">
+<div class="container__checklist">
 
-	    <div class="checklist__item">
-	            <img class="checklist__img" src="img/care.svg" width="380,19" height="512" alt="">
-	    </div>
+        <h3 class="checklist__title">Создайте свой чеклист<br> эко-привычек</h3>
 
-	    <div class="checklist__item2">
 
-	        <div class="checklist__content">
-		        <a href="#">
-		            <img src="img/clipboard.svg" style="width: 68px; height: 64px;" alt="">
-		        </a>
-		        <a href="#" class="checklist__subtitle">Ознакомьтесь со списком</a>
-	        </div>
 
-	        <div class="checklist__content">
-		        <a href="#">
-		            <img src="img/comment.svg" style="width: 68px; height: 64px;" alt="">
-		        </a>
-		        <a href="#" class="checklist__subtitle">Выберите пункты для себя</a>
-	        </div>
+       <div class="checklist__twoitems">
+        <div class="checklist__item">
+                <img class="checklist__img" src="img/flat-world-environment-day-illustration_23-2148928197.jpg" width="648" height="670" alt="">
+        </div>
 
-	        <div class="checklist__content">
-		        <a href="#">
-		            <img src="img/road-map.svg" style="width: 68px; height: 64px;" alt="">
-		        </a>
-		        <a href="#" class="checklist__subtitle">Следуйте новым привычкам</a>
-	        </div>
+        <div class="checklist__item2">
 
-	        <a class="btn__checklist btn--red" href="check-list.html">Создать чек-лист</a>
-	    </div>
-	</div>
+
+            <div class="checklist__content">
+                <a href="#">
+                    <img src="img/clipboard.svg" style="width: 68px; height: 64px;" alt="">
+                </a>
+                <a href="#" class="checklist__subtitle">Ознакомьтесь со списком</a>
+            </div>
+
+            <div class="checklist__content">
+                <a href="#">
+                    <img src="img/comment.svg" style="width: 68px; height: 64px;" alt="">
+                </a>
+                <a href="#" class="checklist__subtitle">Выберите пункты для себя</a>
+            </div>
+
+            <div class="checklist__content">
+                <a href="#">
+                    <img src="img/road-map.svg" style="width: 68px; height: 64px;" alt="">
+                </a>
+                <a href="#" class="checklist__subtitle">Следуйте новым привычкам</a>
+            </div>
+
+            <a class="btn__checklist btn--red" href="check-list.html">Создать чек-лист</a>
+        </div>
+        </div>
+    </div>
 </div>
 
 
 <!-- Вторая часть -->
 
-	<div class="books">
-	    <div class="container_2">
-	        <div class="books__inner">
-	            <h1 class="books_title">Углубитесь в тему сохранения планеты</h1>
-	        </div>
+    <div class="books">
+        <div class="container">
+            <div class="books__inner">
+                <h1 class="books_title">Углубитесь в тему сохранения планеты</h1>
+            </div>
 
-	        <h2 class="books__subtitle">Книги:</h2>
+            <h2 class="books__subtitle">Книги:</h2>
 
-		    <div class="slider">
-		        <div class="slider__item">
-		            <img src="img/books/eco-sapiens.jpg" alt="">
-		            <p>ЭКОsapiens</p>
-		        </div>
+            <div class="slider">
+                <div class="slider__item">
+                    <img src="img/books/eco-sapiens.jpg" alt="">
+                    <p>ЭКОsapiens</p>
+                </div>
 
-		        <div class="slider__item">
-		            <img src="img/books/Mariya_Ershova__Skazhi_NET_plastiku_101_sposob_ispolzovat_menshe_plastika_i_spas.jpeg" alt="">
-		            <p>Скажи «НЕТ» пластику</p>
-		        </div>
+                <div class="slider__item">
+                    <img src="img/books/Mariya_Ershova__Skazhi_NET_plastiku_101_sposob_ispolzovat_menshe_plastika_i_spas.jpeg" alt="">
+                    <p>Скажи «НЕТ» пластику</p>
+                </div>
 
-		        <div class="slider__item">
-		            <img src="img/books/sust.jpg" alt="">
-		            <p>Как устойчивое развитие<br> может изменить мир</p>
-		        </div>
+                <div class="slider__item">
+                    <img src="img/books/sust.jpg" alt="">
+                    <p>Как устойчивое развитие<br> может изменить мир</p>
+                </div>
 
-		        <div class="slider__item">
-		            <img src="img/books/zerow.jpg" alt="">
-		            <p>Осознанное потребление</p>
-		        </div>
+                <div class="slider__item">
+                    <img src="img/books/zerow.jpg" alt="">
+                    <p>Осознанное потребление</p>
+                </div>
 
-		        <div class="slider__item">
-		            <img src="img/books/predel.jpg" alt="">
-		            <p>Пределы роста</p>
-		        </div>
+                <div class="slider__item">
+                    <img src="img/books/predel.jpg" alt="">
+                    <p>Пределы роста</p>
+                </div>
 
-		        <div class="slider__item">
-		            <img src="img/books/storms.jpg" alt="">
-		            <p>Буря моих внуков</p>
-		        </div>
-		    </div>
-	    </div>
-	</div>
+                <div class="slider__item">
+                    <img src="img/books/storms.jpg" alt="">
+                    <p>Буря моих внуков</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
 
     <div class="movie">
-        <div class="container_2">
+        <div class="container">
             <h2 class="movie__subtitle">Фильмы:</h2>
             <div class="mov">
                 <div class="movie__item">
@@ -211,16 +207,16 @@
 
             <div class="contacts">
                 <div class="contacts__item">
-                	<img src="img/footer/instagram%201.png" height="50px" width="50px">
-            	</div>
+                    <img src="img/footer/instagram%201.png" height="50px" width="50px">
+                </div>
 
                 <div class="contacts__item">
-                	<img src="img/footer/youtube%201.png" height="50px" width="50px">
-            	</div>
+                    <img src="img/footer/youtube%201.png" height="50px" width="50px">
+                </div>
 
                 <div class="contacts__item">
-                	<img src="img/footer/arroba%201.png" height="50px" width="50px">
-            	</div>
+                    <img src="img/footer/arroba%201.png" height="50px" width="50px">
+                </div>
             </div>
 
             <div class="copyright">
