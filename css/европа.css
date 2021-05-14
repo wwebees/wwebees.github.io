@@ -240,7 +240,7 @@ img{
 .about_img img{
 	width: 100%;
 	display: block;
-	
+	opacity: 0.3;
 }
 	.burger-menu {
 		visibility: initial;
@@ -292,7 +292,7 @@ img{
 .about_img img{
 	width: 100%;
 	display: block;
-	
+	opacity: 0.3;
 }
 	.burger-menu {
 		visibility: initial;
