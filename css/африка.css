@@ -260,6 +260,17 @@ img {
     letter-spacing: 13px; 
     text-align: center;
     }
+	.about_img{
+	width: 95%;
+	margin: 5px;
+	background: rgba(0, 0, 0, .5);		
+}
+
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .3;
+}
 	.burger-menu {
 		visibility: initial;
 	}
@@ -300,6 +311,18 @@ img {
     opacity: 1;
     z-index: 2; 
 }    
+	
+	.about_img{
+	width: 95%;
+	margin: 5px;
+	background: rgba(0, 0, 0, .5);		
+}
+
+.about_img img{
+	width: 100%;
+	display: block;
+	opacity: .3;
+}
 	.burger-menu {
 		visibility: initial;
 	}
