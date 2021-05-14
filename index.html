@@ -9,25 +9,35 @@
 
 <body>
 
-<header class="header">
-    <div class="container">
-		<div class="header__inner">
-			<div class="logo">
-				<a href="index.html">
-					<img src="img/globe.svg" class="header__img" alt="">
-				</a>
-				<a href="#" class="header__name">WeBees</a>
-			</div>
+<div class="header">
+    <div class="header__inner">
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/globe.png" class="logo__img">
+            </a>
+            <a href="index.html" class="logo__text">WeeBees</a>
+        </div>
 
-			<nav class="nav">
-				<a class="nav__link" href="#1">Узнать</a>
-				<a class="nav__link" href="#2">Проверить</a>
-				<a class="nav__link" href="#3">Сделать</a>
-				<a class="nav__link" href="#">Изучить</a>
-			</nav>
-		</div>
+        <nav class="nav">
+            <a href="index.html#1" class="nav__link">Узнать</a>
+            <a href="index.html#2" class="nav__link">Проверить</a>
+            <a href="index.html#3" class="nav__link">Сделать</a>
+            <a href="index.html#" class="nav__link">Изучить</a>
+        </nav>  
     </div>
-</header>
+</div>
+
+<div class="burger-menu">
+    <input type="checkbox" id="menu__toggle">
+    <label for="menu__toggle" class="menu__button"><span></span></label>
+
+    <ul class="menu__box">
+        <li><a href="index.html#1" class="menu__item">Узнать</a></li>
+        <li><a href="index.html#2" class="menu__item">Проверить</a></li>
+        <li><a href="index.html#3" class="menu__item">Сделать</a></li>
+        <li><a href="index.html#" class="menu__item">Изучить</a></li>
+    </ul>
+</div>
 
 
 <!-- Intro -->
@@ -119,7 +129,7 @@
 <!-- Вторая часть -->
 
 	<div class="books">
-	    <div class="container">
+	    <div class="container_2">
 	        <div class="books__inner">
 	            <h1 class="books_title">Углубитесь в тему сохранения планеты</h1>
 	        </div>
@@ -164,7 +174,7 @@
 
 
     <div class="movie">
-        <div class="container">
+        <div class="container_2">
             <h2 class="movie__subtitle">Фильмы:</h2>
             <div class="mov">
                 <div class="movie__item">
