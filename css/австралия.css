@@ -222,7 +222,7 @@ img{
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 769px){
 	.problems{
 
 	display: flex;
@@ -242,6 +242,20 @@ img{
 	text-align: center;
 	
 	}
+	.problem_title{
+	
+	position: absolute;
+	font-size: 36px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0;
+	top: 50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	opacity: 1;
+	z-index: 100;
 	.about_img{
 	width: 98%;
 	margin: 5px;
