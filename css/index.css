@@ -481,6 +481,7 @@ h1, h2, h3, h4, h5, h6 {
 
     body {
         font-size: 20px;
+        background-image: url(../img/mobile.jpg);
     }
 
     .header__inner {
@@ -516,15 +517,6 @@ h1, h2, h3, h4, h5, h6 {
         height: 160px;
     }
 
-
-    body {
-    background-image: url(../img/mobile.jpg);
-
-}
-}
-
-
-@media only screen and (max-width: 1080px) {
     .check__title {
         font-size: 40px;
     }
@@ -547,26 +539,18 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .checklist__img {
-    margin-left: 0px;
-    width: 480px;
-    height: 520px;
+        margin-left: 0px;
+        width: 480px;
+        height: 520px;
 
     }
-
-
-    .checklist__item {
-
-
-    }
-
-
-
 
     .btn__checklist {
         width: 400px;
         padding: 37px 90px;
     }
 }
+
 
 
 
@@ -581,7 +565,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
  @media (max-width: 1296px) {
-        .container {
+        .container_2 {
 
             max-width: 970px;
         }
@@ -619,7 +603,7 @@ h1, h2, h3, h4, h5, h6 {
       }
 }
 @media (max-width: 992px) {
-        .container{
+        .container_2 {
             max-width: 750px;
     }
     .books_title {
@@ -639,21 +623,20 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
-  @media (max-width:767px) {
-        .container{
-            max-width: none;
-        }
-            .mov {
-            display: block;
-          text-align: center;
-        }
+@media (max-width:767px) {
+    .container_2 {
+        max-width: none;
+    }
+    .mov {
+        display: block;
+        text-align: center;
+    }
 
-        .movie__item {
-
-            width: auto;
-            padding-bottom: 25px;
-      }
-        }
+    .movie__item {
+        width: auto;
+        padding-bottom: 25px;
+    }
+}
 
 
 
