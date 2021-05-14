@@ -34,6 +34,7 @@ img{
 .about_img{
 	width: 98%;
 	margin: 5px;
+	background-color:rgba(0, 0, 0, .5);
 		
 		
 }
@@ -46,7 +47,7 @@ img{
 }
 
 .problem_item:hover .about_img img{
-	opacity: 0.4;
+	opacity: 0.3;
 	background-color: rgba(0, 0, 0, .5);
 	transition: 0.3s;
 	z-index: 10;
