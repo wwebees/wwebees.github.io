@@ -315,7 +315,7 @@ img {
 	
 	.about_img{
 	width: 95%;
-	margin: 5px 0px 5px 0px;
+	margin: 5px 0px 5px 5px;
 	background: rgba(0, 0, 0, .5);		
 }
 
