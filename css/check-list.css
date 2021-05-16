@@ -556,12 +556,93 @@ color: #000;
   height: 96vw;
   }
 
+/* Header */
+
+.header {
+	width: 100%;
+	height: 5vw;
+	padding-top: 0.38vw;
+	padding-bottom: 0.38vw;
+
+	background-color: rgba(0,0,0,0.5);
+	border-bottom-left-radius: 2.19vw;
+	border-bottom-right-radius: 2.19vw;
+}
+
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 0.19vw;
+}
+
+/* Logo */
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo__img {	
+	width: 3.25vw;
+	height: auto;
+	margin-right: 0.94vw;
+}
+
+.logo__text {
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-size: 1.88vw;
+}
+
+/* Navigation */
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.50vw;
+	width: 50%;
+}
+
+.nav__link {
+	position: relative;
+
+	text-decoration: none;
+	color: #fff;
+
+	transition: color .2s linear;
+}
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 0.13vw;
+	margin-top: 0.13vw;
+	background-color: #fff;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	-webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+
+.nav__link:hover:after {
+	width: 100%;
+}
+	
 #checklist {
   background: #F8F8F8;
   position: relative;
   padding-right: 6.88vw;
   padding-left: 7.5vw;
-  padding-top: 17.50vw;
+  padding-top: 10vw;
   padding-bottom:6.25vw ;
   display: grid;
   grid-template-columns: 1.88vw auto;
@@ -976,13 +1057,12 @@ body {
 	width: 100%;
 }
 	
-	
 #checklist {
   background: #F8F8F8;
   position: relative;
   padding-right: 6.88vw;
   padding-left: 7.5vw;
-  padding-top: 17.50vw;
+  padding-top: 10vw;
   padding-bottom:5.5vw ;
   display: grid;
   grid-template-columns: 1.88vw auto;
@@ -1315,7 +1395,7 @@ color: #000;
   position: relative;
   padding-right: 6.88vw;
   padding-left: 7.5vw;
-  padding-top: 17.50vw;
+  padding-top: 10vw;
   padding-bottom:6.25vw ;
   display: grid;
   grid-template-columns: 1.88vw auto;
@@ -1467,7 +1547,7 @@ color: #000;
   position: relative;
   padding-right: 6.88vw;
   padding-left: 6.3vw;
-  padding-top: 18vw;
+  padding-top: 10vw;
   padding-bottom:4vw ;
   display: grid;
   grid-template-columns: 1.88vw auto;
@@ -1902,7 +1982,7 @@ color: #000;
   position: relative;
   padding-right: 8vw;
   padding-left: 8vw;
-  padding-top: 20vw;
+  padding-top: 18vw;
   padding-bottom:7vw ;
   display: grid;
   grid-template-columns: 1.88vw auto;
