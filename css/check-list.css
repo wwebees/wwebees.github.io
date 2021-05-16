@@ -1954,6 +1954,10 @@ color: #000;
 }
     }  
 
+@media only screen and (max-device-width: 480px) {
+
+}
+
 @media only screen and (max-device-width: 320px) {
     
     body {
@@ -1992,7 +1996,7 @@ color: #000;
   width: 73vw;
   height: 180vw;
   left: 13vw;
-  top: 3vw;
+  top: 4.5vw;
   border-radius: 2.50vw;
 }
 
@@ -2015,7 +2019,7 @@ color: #171717;
 position: absolute;
 width: 50vw;
 height: 4.70vw;
-left: 12vw;
+left: 8vw;
 top:6vw;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
