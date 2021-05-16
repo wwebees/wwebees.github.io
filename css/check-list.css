@@ -1,7 +1,7 @@
 body {
     width: 100%;
     margin: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 36px;
     color: #000000;
     background-image: url(../img/check-list-back.jpg);
@@ -26,109 +26,86 @@ body {
   top: 0px;
   }
 
-/* header */    
+/* Header */
+
 .header {
-  position: absolute;
-  width: 100%;
-  height: 105px;
-  background: rgba(50, 50, 50, 0.77);
-  border-radius: 0px 0px 60px 60px;
-  }    
- 
-/* logo */
-.right {
-   position: absolute;
-   width: 102.58px;
-   height: 26.6px;
-   left: 262px;
-   top: 38.7px;
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 26px;
-   line-height: 28px;
-   color: #E9EFF4;     
+	width: 100%;
+	height: 80px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+
+	background-color: rgba(0,0,0,0.5);
+	border-bottom-left-radius: 35px;
+	border-bottom-right-radius: 35px;
 }
 
-.header_inner{
-    position: absolute;
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 3px;
 }
 
-.left {
-   position: absolute;
-   width: 52px;
-   height: 52px;
-   left: 200px;
-   top: 26px;
+/* Logo */
+
+.logo {
+	display: flex;
+	align-items: center;
 }
 
-.img {
-     left: 200px;
-     top: 26px;
+.logo__img {	
+	width: 52px;
+	height: auto;
+	margin-right: 15px;
 }
 
- /*Узнавать*/
-.nav_link_1 {    
-position: absolute;
-width: 110px;
-height: 30.77px;
-left: 630px;
-top: 37px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 28px;
-color: #FFFFFF;
-text-decoration: none;
+.logo__text {
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-size: 30px;
 }
 
-/*Проверить*/
-.nav_link_2 {
-position: absolute;
-width: 137.8px;
-height: 30.77px;
-left: 801px;
-top: 37px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 28px;
-color: #FFFFFF;
-text-decoration: none;
+/* Navigation */
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+
+	font-size: 24px;
+	width: 50%;
 }
 
-/*Сделать*/
-.nav_link_active {
-position: absolute;
-width: 110px;
-height: 30.77px;
-left: 1024px;
-top: 37px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 28px;
-color: #FFFFFF;
-text-underline-position:under;
+.nav__link {
+	position: relative;
+
+	text-decoration: none;
+	color: #fff;
+
+	transition: color .2s linear;
 }
- 
-/*Изучить*/
-.nav_link_3 {
-position: absolute;
-width: 110px;
-height: 30.77px;
-left: 1210px;
-top: 37px;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 26px;
-line-height: 28px;
-color: #FFFFFF;
-text-decoration: none;
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	margin-top: 2px;
+	background-color: #fff;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	-webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+
+.nav__link:hover:after {
+	width: 100%;
 }
 
 /* Burger menu */
@@ -265,7 +242,7 @@ width: 436.41px;
 height: 75.31px;
 left: 280.72px;
 top: 30px;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 60px;
@@ -280,7 +257,7 @@ width: 436.41px;
 height: 75.31px;
 left: 275.72px;
 top: 110px;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 60px;
@@ -293,7 +270,7 @@ color: #171717;
 position: relative;
 cursor: pointer;
 display: inline-grid;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 36px;
@@ -561,7 +538,7 @@ color: #000;
     body {
     width: 100%;
     margin: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.25vw;
     color: #000000;
 }  
@@ -578,112 +555,6 @@ color: #000;
   width: 100%;
   height: 96vw;
   }
-
-/* header */    
-.header {
-  position: absolute;
-  width: 100%;
-  height: 6.56vw;
-  background: rgba(50, 50, 50, 0.77);
-  border-radius: 0vw 0vw 3.75vw 3.75vw;
-  }    
- 
-/* logo */
-.right {
-   position: absolute;
-   width: 6.43vw;
-   height: 1.68vw;
-   left: 18vw;
-   top: 2.44vw;
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 1.75vw;
-   line-height: 1.8vw;
-   color: #E9EFF4;     
-}
-.header_inner{
-    position: absolute;
-}
-.left {
-   position: absolute;
-   width: 3vw;
-   height: 3vw;
-   left: 13.7vw;
-   top: 1.45vw;
-}
-
-.img {
-     width: 3.5vw;
-     height: 3.5vw;
-     left: 13.8vw;
-     top: 1.63vw;
-}
-
- /*Узнавать*/
-.nav_link_1 {    
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 40vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.75vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
-/*Проверить*/
-.nav_link_2 {
-position: absolute;
-width: 8.62vw;
-height: 1.93vw;
-left: 50.68vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.75vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
-/*Сделать*/
-.nav_link_active {
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 64.62vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.75vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-underline-position:under;
-}
- 
-/*Изучить*/
-.nav_link_3 {
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 76.25vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.75vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
 
 #checklist {
   background: #F8F8F8;
@@ -710,7 +581,7 @@ width: 27.26vw;
 height: 4.70vw;
 left: 17.51vw;
 top: 1.88vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 3.88vw;
@@ -725,7 +596,7 @@ width: 27.26vw;
 height: 4.70vw;
 left: 17.24vw;
 top: 6.88vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 3.88vw;
@@ -738,7 +609,7 @@ color: #171717;
 position: relative;
 cursor: pointer;
 display: inline-grid;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 2.38vw;
@@ -1006,7 +877,7 @@ color: #000;
 body {
     width: 100%;
     margin: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.25vw;
     color: #000000;
 }  
@@ -1024,112 +895,88 @@ body {
   height: 102.50vw;
   }
 
-/* header */    
+/* Header */
+
 .header {
-  position: absolute;
-  width: 100%;
-  height: 6.56vw;
-  background: rgba(50, 50, 50, 0.77);
-  border-radius: 0vw 0vw 3.75vw 3.75vw;
-  }    
- 
-/* logo */
-.right {
-   position: absolute;
-   width: 6.43vw;
-   height: 1.68vw;
-   left: 18vw;
-   top: 2.44vw;
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 1.75vw;
-   line-height: 1.8vw;
-   color: #E9EFF4;     
-}
-.header_inner{
-    position: absolute;
-}
-.left {
-   position: absolute;
-   width: 3.25vw;
-   height: 3.25vw;
-   left: 13.9vw;
-   top: 1.6vw;
+	width: 100%;
+	height: 5vw;
+	padding-top: 0.38vw;
+	padding-bottom: 0.38vw;
+
+	background-color: rgba(0,0,0,0.5);
+	border-bottom-left-radius: 2.19vw;
+	border-bottom-right-radius: 2.19vw;
 }
 
-.img {
-     width: 3.25vw;
-     height: 3.25vw;
-     left: 13.8vw;
-     top: 1.75vw;
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	width: 75%;
+	height: 100%;
+	margin: 0 auto;
+	padding-top: 0.19vw;
 }
 
- /*Узнавать*/
-.nav_link_1 {    
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 40vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.75vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
+/* Logo */
+
+.logo {
+	display: flex;
+	align-items: center;
 }
 
-/*Проверить*/
-.nav_link_2 {
-position: absolute;
-width: 8.62vw;
-height: 1.93vw;
-left: 50.68vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.75vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
+.logo__img {	
+	width: 3.25vw;
+	height: auto;
+	margin-right: 0.94vw;
 }
 
-/*Сделать*/
-.nav_link_active {
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 64.62vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.75vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-underline-position:under;
-}
- 
-/*Изучить*/
-.nav_link_3 {
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 76.25vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 1.75vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
+.logo__text {
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-size: 1.88vw;
 }
 
+/* Navigation */
 
+.nav {
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.50vw;
+	width: 50%;
+}
+
+.nav__link {
+	position: relative;
+
+	text-decoration: none;
+	color: #fff;
+
+	transition: color .2s linear;
+}
+
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 0.13vw;
+	margin-top: 0.13vw;
+	background-color: #fff;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+	-webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
+}
+
+.nav__link:hover:after {
+	width: 100%;
+}
+	
+	
 #checklist {
   background: #F8F8F8;
   position: relative;
@@ -1155,7 +1002,7 @@ width: 27.26vw;
 height: 4.70vw;
 left: 17.51vw;
 top: 1.88vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 3.88vw;
@@ -1170,7 +1017,7 @@ width: 27.26vw;
 height: 4.70vw;
 left: 17.24vw;
 top: 6.88vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 3.88vw;
@@ -1183,7 +1030,7 @@ color: #171717;
 position: relative;
 cursor: pointer;
 display: inline-grid;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 2.38vw;
@@ -1597,7 +1444,7 @@ color: #000;
     body {
     width: 100%;
     margin: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.5vw;
     color: #000000;
 }  
@@ -1614,112 +1461,6 @@ color: #000;
   width: 100%;
   height: 102.50vw;
   }
-
-/* header */    
-.header {
-  position: absolute;
-  width: 100%;
-  height: 6.7vw;
-  background: rgba(50, 50, 50, 0.77);
-  border-radius: 0vw 0vw 3.75vw 3.75vw;
-  }    
- 
-/* logo */
-.right {
-   position: absolute;
-   width: 6.43vw;
-   height: 1.68vw;
-   left: 18vw;
-   top: 2.5vw;
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 2.3vw;
-   line-height: 1.8vw;
-   color: #E9EFF4;     
-}
-.header_inner{
-    position: absolute;
-}
-.left {
-   position: absolute;
-   width: 3.7vw;
-   height: 3.7vw;
-   left: 13.9vw;
-   top: 1.5vw;
-}
-
-.img {
-     width: 3.7vw;
-     height: 3.7vw;
-     left: 13.8vw;
-     top: 1.6vw;
-}
-
- /*Узнавать*/
-.nav_link_1 {    
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 40vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
-/*Проверить*/
-.nav_link_2 {
-position: absolute;
-width: 8.62vw;
-height: 1.93vw;
-left: 50.68vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
-/*Сделать*/
-.nav_link_active {
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 64.62vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-underline-position:under;
-}
- 
-/*Изучить*/
-.nav_link_3 {
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 76.25vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
 
 #checklist {
   background: #F8F8F8;
@@ -1746,7 +1487,7 @@ width: 27.26vw;
 height: 4.70vw;
 left: 22vw;
 top: -1vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 6vw;
@@ -1761,7 +1502,7 @@ width: 40vw;
 height: 4.70vw;
 left: 15.5vw;
 top:5vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 6vw;
@@ -1774,7 +1515,7 @@ color: #171717;
 position: relative;
 cursor: pointer;
 display: inline-grid;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 3.5vw;
@@ -2138,7 +1879,7 @@ color: #000;
     body {
     width: 100%;
     margin: 0;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 2.5vw;
     color: #000000;
 }  
@@ -2155,112 +1896,6 @@ color: #000;
   width: 100%;
   height: 120vw;
   }
-
-/* header */    
-.header {
-  position: absolute;
-  width: 100%;
-  height: 6.7vw;
-  background: rgba(50, 50, 50, 0.77);
-  border-radius: 0vw 0vw 3.75vw 3.75vw;
-  }    
- 
-/* logo */
-.right {
-   position: absolute;
-   width: 6.43vw;
-   height: 1.68vw;
-   left: 18vw;
-   top: 2.5vw;
-   font-family: Roboto;
-   font-style: normal;
-   font-weight: bold;
-   font-size: 2.3vw;
-   line-height: 1.8vw;
-   color: #E9EFF4;     
-}
-.header_inner{
-    position: absolute;
-}
-.left {
-   position: absolute;
-   width: 3.7vw;
-   height: 3.7vw;
-   left: 13.9vw;
-   top: 1.5vw;
-}
-
-.img {
-     width: 3.7vw;
-     height: 3.7vw;
-     left: 13.8vw;
-     top: 1.6vw;
-}
-
- /*Узнавать*/
-.nav_link_1 {    
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 40vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
-/*Проверить*/
-.nav_link_2 {
-position: absolute;
-width: 8.62vw;
-height: 1.93vw;
-left: 50.68vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
-/*Сделать*/
-.nav_link_active {
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 64.62vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-underline-position:under;
-}
- 
-/*Изучить*/
-.nav_link_3 {
-position: absolute;
-width: 6.88vw;
-height: 1.93vw;
-left: 76.25vw;
-top: 2.31vw;
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 2.3vw;
-line-height: 1.8vw;
-color: #FFFFFF;
-text-decoration: none;
-}
-
 
 #checklist {
   background: #F8F8F8;
@@ -2287,7 +1922,7 @@ width: 27.26vw;
 height: 4.70vw;
 left: 22vw;
 top: 0vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 6vw;
@@ -2302,7 +1937,7 @@ width: 50vw;
 height: 4.70vw;
 left: 15.5vw;
 top:6vw;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 6vw;
@@ -2315,7 +1950,7 @@ color: #171717;
 position: relative;
 cursor: pointer;
 display: inline-grid;
-font-family: Roboto;
+font-family: 'Roboto', sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 4vw;
