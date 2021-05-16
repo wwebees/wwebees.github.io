@@ -1955,7 +1955,21 @@ color: #000;
     }  
 
 @media only screen and (max-device-width: 480px) {
-
+ .log_2 {
+position: absolute;
+width: 50vw;
+height: 4.70vw;
+left: 5vw;
+top:6vw;
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 6vw;
+line-height: 4.38vw;
+text-align: center;
+color: #171717;       
+}
+	
 }
 
 @media only screen and (max-device-width: 320px) {
