@@ -652,7 +652,7 @@ color: #000;
   width: 63vw;
   height: 80vw;
   left: 17.5vw;
-  top: 2vw;
+  top: 1vw;
   border-radius: 2.50vw;
 }
 
@@ -1555,9 +1555,9 @@ color: #000;
   position: relative;
   box-shadow: 0 0.63vw 1.88vw rgba(#414856, 0.05);
   width: 73vw;
-  height: 120vw;
+  height: 122vw;
   left: 13vw;
-  top: 5vw;
+  top: 3vw;
   border-radius: 2.50vw;
 }
 
@@ -1580,7 +1580,7 @@ color: #171717;
 position: absolute;
 width: 50vw;
 height: 4.70vw;
-left: 12.5vw;
+left: 11.5vw;
 top:5vw;
 font-family: 'Roboto', sans-serif;
 font-style: normal;
@@ -1992,7 +1992,7 @@ color: #000;
   width: 73vw;
   height: 180vw;
   left: 13vw;
-  top: 4.5vw;
+  top: 6vw;
   border-radius: 2.50vw;
 }
 
