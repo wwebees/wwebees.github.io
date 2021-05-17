@@ -50,32 +50,53 @@ img{
 	opacity: 1;
 	
 }
-
-
-.about_img{
-	width: 98%;
-	margin: 5px;
-	background-color: rgba(0, 0, 0, .5);
-			
+.problem_item{
+display: block;
+position: relative;
+}
+ 
+.problem_item:before {
+content: ' ';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0;
+} 
+ 
+.problem_item:after {
+content: ' ';
+position: absolute;
+width: 98%;
+height: 99%;
+top: 0;
+left: 1%;
+right: 0.65vw;
+bottom: 0;
+background: rgba(0,0,0,.5);
+opacity: 0;
+transition: 0.3s;
+} 
+.problem_item:hover:before,
+.problem_item:hover:after { opacity: 1; }
+.problem_item:hover .problem_title{
+	transition: 0.3s;
+	opacity: 1;
 }
 
-.about_img img{
-	width: 100%;
-	display: block;
+
+.container{
+	max-width: 1500px;
+	margin: 0px auto;
+	padding: 0px 15px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
 	
 }
-.problem_item:hover .about_img img{
-	opacity: 0.3;
-	background-color: rgba(0, 0, 0, .5);
-	transition: 0.3s;
-	z-index: 10;
-}
 
-.problem_item:hover .problem_title{
-	opacity: 1;
-	transition: 0.3s;
-	z-index: 100;
-}
+
 
 .container{
 	max-width: 1500px;
@@ -230,18 +251,33 @@ img{
 	text-align: center;
 	
 	}
-	.about_img{
-	width: 98%;
-	margin: 5px;
-	background-color: rgba(0, 0, 0, .5);
-			
+	.problem_item{
+display: block;
+position: relative;
 }
-
-.about_img img{
-	width: 100%;
-	display: block;
-	opacity: 0.3;
-}
+ 
+.problem_item:before {
+content: ' ';
+position: absolute;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+opacity: 0;
+} 
+ 
+.problem_item:after {
+content: ' ';
+position: absolute;
+width: 98%;
+height: 99%;
+top: 0;
+left: 1%;
+right: 0.65vw;
+bottom: 0;
+background: rgba(0,0,0,.5);
+opacity: 1;
+	
 	.burger-menu {
 		visibility: initial;
 	}
@@ -270,7 +306,7 @@ img{
 	
 	.problem_title{
 	position: absolute;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 700;
 	text-align: center;
 	margin: 0;
@@ -282,18 +318,7 @@ img{
 	opacity: 1;
 	z-index: 2;	
 }
-	.about_img{
-	width: 98%;
-	margin: 5px;
-	background-color: rgba(0, 0, 0, .5);
-			
-}
-
-.about_img img{
-	width: 100%;
-	display: block;
-	opacity: 0.3;
-}
+	
 	.burger-menu {
 		visibility: initial;
 	}
