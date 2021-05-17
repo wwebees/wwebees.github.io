@@ -853,7 +853,7 @@ a.sa:hover:after { opacity: 1; }
 	width: 100vw;
 	height: 47vw;
 	    position: relative;
-	top: 19;
+	top: -19;
 }
 
 .body {
