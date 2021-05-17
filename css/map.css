@@ -165,10 +165,10 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     align-items: center;
     position: fixed;
-    top: 5vh;
-    left: 5vh;
-    width: 15vh;
-    height: 15vh;
+    top: 1.25vh;
+    left: 1.25vh;
+    width: 3.7vh;
+    height: 3.7vh;
     cursor: pointer;
     z-index: 1002120000;
 }
@@ -179,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 display: block;
     position: absolute;
     width: 100%;
-    height: 1.8vh;
+    height: 0.45vh;
     background-color: #000;
 }
 
@@ -187,12 +187,12 @@ display: block;
 
 .menu__button > span::before {
 	content: '';
-	top: -3.8vh;
+	top: -1vh;
 }
 
 .menu__button > span::after {
 	content: '';
-	top: 3.8vh;
+	top: 1vh;
 }
 
 .menu__box {
@@ -221,10 +221,10 @@ display: block;
 
 .menu__item {
 display: block;
-    padding: 18vh 6vh;
+    padding: 4.5vh 1.5vh;
     color: #333;
     font-family: "Roboto", sans-serif;
-    font-size: 15vh;
+    font-size: 3.7vh;
     font-weight: 600;
 
     text-decoration: none;
@@ -1058,62 +1058,62 @@ a.sa:hover:after { opacity: 1; }
 
 #okean {
 
-width: 900vh;
-    height: 400%;
+width: 225vh;
+    height: 100 vh;
 
 }
-	geo:hover img { width: 33.5vh; }
+	geo:hover img { width: 9vh; }
 
 .geo {
     position: absolute;
     z-index: 1000;
-    top: 50vh;
-    left: 180vh;
+    top: 12,5vh;
+    left: 45vh;
     z-index: 100;
-    width: 32vh;
+    width: 8vh;
 }
 .geo2 {
     position: absolute;
-    top: 190vh;
-    left: 244vh;
+    top: 47,5vh;
+    left: 60,5vh;
     z-index: 100;
-    width: 32vh;
+    width: 8vh;
 }
 .geo4 {
     position: absolute;
-    top: 30vh;
-    left: 540vh;
+    top: 7,5vh;
+    left: 135vh;
     z-index: 100;
-    width: 32vh;
+    width: 8vh;
 }
 .geo3 {
     position: absolute;
-    top: 130vh;
-    left: 470vh;
-    width: 32vh;
+    top: 30,25vh;
+    left: 117,5vh;
+    width: 8vh;
     z-index: 100;
 }
 .geo5 {
  position: absolute;
-    top: 80vh;
-    left: 680vh;
-    width: 32vh;
+    top: 20vh;
+    left: 170vh;
+    width: 8vh;
     z-index: 100;
 }
 .geo6 {
      position: absolute;
-    top: 230vh;
-    left: 770vh;
+    top: 57,5vh;
+    left: 192,5vh;
     z-index: 100;
-    width: 32vh;
+    width: 8vh;
 
 }
 .geo7 {
     position: absolute;
-    top: 335vh;
-    left: 620vh;
+    top: 83,75vh;
+    left: 155vh;
     z-index: 100;
-    width: 32vh;
+    width: vh;
 }
 td{
 	 width: 100%;
@@ -1377,11 +1377,6 @@ a.sa:hover:after { opacity: 1; }
 .header {
 	opacity: 0;
 }
-
-.123 {  
-	 -webkit-transform: scale(0.25);
-	}
-
 
 
 
