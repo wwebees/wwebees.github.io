@@ -372,37 +372,49 @@ color: #E9EFF4;
 }
 
 
+/* Navigation */
 
-
-/* Nav */
 .nav {
-display:flex;
-font-size: 1.25vw;
-font-weight: 700;
+	display: flex;
+	justify-content: space-between;
 
-
+	font-size: 24px;
+	width: 50%;
 }
 
 .nav__link {
-margin-left: 5.21vw;
-color: #fff;
-text-decoration: none;
-opacity: .75;
-margin-top: 1.82vw;
+	position: relative;
 
+	text-decoration: none;
+	color: #fff;
 
-transition: opacity 0.1s linear;
-
+	transition: color .2s linear;
 }
 
-.nav__link:first-child {
-margin-left: 0;
+.nav__link:after {
+	content: "";
+	display: block;
+	width: 0%;
+	height: 2px;
+	margin-top: 2px;
+
+	background-color: #fff;
+
+	position: absolute;
+	top: 100%;
+	left: 0;
+	z-index: 1;
+
+	-webkit-transition: width .2s ease-in-out;
+    -moz--transition: width .2s ease-in-out;
+    transition: width .2s ease-in-out;
 }
 
-.nav__link:hover {
-text-decoration: underline;
-opacity: 1;
+.nav__link:hover:after {
+	width: 100%;
 }
+
+
 
 
 
