@@ -31,34 +31,6 @@ body{
 img{
 	width: 98%;
 }
-.about_img{
-	width: 98%;
-	margin: 5px;
-	background-color:rgba(0, 0, 0, .5);
-		
-		
-}
-
-.about_img img{
-	width: 100%;
-	display: block;
-	
-	
-}
-
-.problem_item:hover .about_img img{
-	opacity: 0.3;
-	background-color: rgba(0, 0, 0, .5);
-	transition: 0.3s;
-	z-index: 10;
-}
-
-.problem_item:hover .problem_title{
-	opacity: 1;
-	transition: 0.3s;
-	z-index: 100;
-}
-
 
 
 .problem_item{
@@ -71,6 +43,7 @@ img{
 	position: absolute;
 	font-size: 36px;
 	font-weight: 700;
+	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	margin: 0;
 	top: 50%;
@@ -252,17 +225,7 @@ img{
 	z-index: 2;	
 }
 
-	.about_img{
-	width: 98%;
-	margin: 5px;
-	background: rgba(0, 0, 0, .5);		
-}
-
-	.about_img img{
-	width: 100%;
-	display: block;
-	opacity: .3;
-}
+	
 .burger-menu {
 		visibility: initial;
 	}
@@ -291,7 +254,7 @@ img{
 	}
 	.problem_title{
 	position: absolute;
-	font-size: 25px;
+	font-size: 20px;
 	font-weight: 700;
 	text-align: center;
 	margin: 0;
@@ -303,17 +266,7 @@ img{
 	opacity: 1;
 	z-index: 2;	
 }
-.about_img{
-	width: 98%;
-	margin: 5px;
-	background: rgba(0, 0, 0, .5);		
-}
 
-.about_img img{
-	width: 100%;
-	display: block;
-	opacity: .3;
-}
 .burger-menu {
 		visibility: initial;
 	}
