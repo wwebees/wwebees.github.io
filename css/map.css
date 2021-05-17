@@ -23,10 +23,7 @@ width: 100%;
 
 
 
-
-
 /* Burger menu */
-
 
 .burger-menu {
 	visibility: hidden;
@@ -35,7 +32,6 @@ width: 100%;
 #menu__toggle {
 	opacity: 0;
 }
-
 .menu__button_2 {
 display: flex;
     align-items: center;
@@ -93,7 +89,6 @@ display: flex;
 	z-index: 5000000;
 }
 
-
 .menu__item_2 {
     display: block;
         margin: 15vw 0vw 0vw 5vw;
@@ -108,10 +103,6 @@ display: flex;
 .menu__item_2:hover {
 	background-color: #cfd8dc;
 }
-
-
-
-
 #menu__toggle:checked ~ .menu__button_2 > span {
 	transform: rotate(45deg);
 	background-color: #333;
@@ -131,6 +122,9 @@ display: flex;
   visibility: visible;
   left: 0;
 }
+
+
+
 
 
 
