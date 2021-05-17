@@ -110,10 +110,7 @@ transition: 0.3s;
 	z-index: 100;
 	
 }
-.about_img:hover .problem_title{
-	opacity: 1;
-	transition: 0.3s;
-}
+
 
 
 
@@ -362,18 +359,7 @@ opacity: 1;
 	z-index: 2;	
 }
 	
-	.about_img{
-	width: 98%;
-	margin: 5px;
-			
-}
-
-.about_img img{
-	width: 100%;
-	display: block;
-	opacity: .3;
 	
-}
 	.burger-menu {
 		visibility: initial;
 	}
