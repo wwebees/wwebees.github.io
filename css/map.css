@@ -1379,6 +1379,19 @@ a.sa:hover:after { opacity: 1; }
 }
 
 
+.title {
+	text-align: center;
+	color: black;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 5vw;
+    line-height: 3.5vw;
+    letter-spacing: 0.4em;
+	margin-top: 14vw;
+	margim-bottom: 6vw;
+	
+}
 
 }
 
