@@ -1064,53 +1064,53 @@ width: 900vh;
 .geo {
     position: absolute;
     z-index: 1000;
-    top: 12.5vh;
-    left: 45vh;
+    top: 50vh;
+    left: 180vh;
     z-index: 100;
-    width: 8vh;
+    width: 32vh;
 }
 .geo2 {
     position: absolute;
-    top: 47.5vh;
-    left: 61vh;
+    top: 190vh;
+    left: 240vh;
     z-index: 100;
-    width: 8vh;
+    width: 32vh;
 }
 .geo4 {
     position: absolute;
-    top: 7.5vh;
-    left: 135vh;
+    top: 30vh;
+    left: 540vh;
     z-index: 100;
-    width: 8vh;
+    width: 32vh;
 }
 .geo3 {
     position: absolute;
-    top: 32.5vh;
-    left: 117.5vh;
-    width: 8vh;
+    top: 130vh;
+    left: 470vh;
+    width: 32vh;
     z-index: 100;
 }
 .geo5 {
  position: absolute;
-    top: 20vh;
-    left: 170vh;
-    width: 8vh;
+    top: 80vh;
+    left: 680vh;
+    width: 32vh;
     z-index: 100;
 }
 .geo6 {
      position: absolute;
-    top: 57.5vh;
-    left: 192.5vh;
+    top: 230vh;
+    left: 770vh;
     z-index: 100;
-    width: 8vh;
+    width: 32vh;
 
 }
 .geo7 {
     position: absolute;
-    top: 83.75vh;
-    left: 155vh;
+    top: 335vh;
+    left: 620vh;
     z-index: 100;
-    width: 8vh;
+    width: 32vh;
 }
 td{
 	 width: 100%;
