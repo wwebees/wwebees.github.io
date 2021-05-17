@@ -1377,6 +1377,9 @@ a.sa:hover:after { opacity: 1; }
 .header {
 	opacity: 0;
 }
+}	
+	
+	@media only screen and (max-device-width: 480px) {
 .123 {  
 	 -webkit-transform: scale(0.25);
 	}
