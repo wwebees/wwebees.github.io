@@ -47,8 +47,8 @@ img{
 	margin-right: -50%;
 	transform: translate(-50%, -50%);
 	color: #FFFFFF;
-	z-index: 3;
-	opacity: 1;
+	z-index: 100;
+	opacity: 0;
 	
 }
 .problem_item{
