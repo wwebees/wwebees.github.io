@@ -993,6 +993,7 @@ a.sa:hover:after { opacity: 1; }
 
 width: 225vh;
     height: 100vh;
+	    overflow-y: hidden;
 
 }
 	#geo:hover img { width: 9vh; 
