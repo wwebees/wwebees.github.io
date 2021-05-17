@@ -36,6 +36,7 @@ body{
     color: white;
 	position: absolute;
 	top: 50%;
+	font-family:  'Roboto', normal;
     left: 27%;
     opacity: 0;
 	width: 50%;
