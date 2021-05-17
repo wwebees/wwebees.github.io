@@ -372,6 +372,24 @@ color: #E9EFF4;
 }
 
 
+/* Logo */
+
+.logo {
+	display: flex;
+	align-items: center;
+}
+
+.logo__img {	
+	width: 52px;
+	height: auto;
+	margin-right: 15px;
+}
+
+.logo__text {
+ 	color: #fff;
+ 	text-decoration: none;
+ 	font-size: 30px;
+}
 /* Navigation */
 
 .nav {
