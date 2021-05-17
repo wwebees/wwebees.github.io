@@ -1061,6 +1061,8 @@ a.sa:hover:after { opacity: 1; }
 width: 900vh;
     height: 400%;
 }
+	geo:hover img { width: 33.5vh; }
+
 .geo {
     position: absolute;
     z-index: 1000;
