@@ -873,7 +873,8 @@ h1, h2, h3, h4, h5, h6 {
 
 
     height: 408px;
-    background: url('../img/footer/bckgr.png') no-repeat;
+    background: url('../img/footer/bckgr.png');
+    background-repeat: no-repeat;
     display: flex;
 
 
