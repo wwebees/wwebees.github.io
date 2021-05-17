@@ -342,35 +342,13 @@ z-index: 1000;
 
 .header__inner {
 display: flex;
-justify-content: space-between;
-margin-left: 12vw;
-margin-right: 12vw;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 3px;
 }
-.globe {
-	width: 2.71vw;
-}
-.header__logo {
-
-
-margin-left: 0vw;
-margin-top: 1.35vw;
-border-radius: 0vw;
-}
-
-
-.header__name {
-padding: 0pvw;
-margin: 1.9vw 0vw 0vw 4vw;
-position: absolute;
-
-
-font-style: normal;
-font-weight: bold;
-font-size: 1.25vw;
-
-color: #E9EFF4;
-}
-
 
 /* Logo */
 
