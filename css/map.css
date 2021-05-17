@@ -1062,7 +1062,7 @@ width: 225vh;
     height: 100vh;
 
 }
-	geo:hover img { width: 9vh; }
+	.geo:hover img { width: 9vh; }
 
 .geo {
     position: absolute;
