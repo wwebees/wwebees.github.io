@@ -1060,7 +1060,7 @@ a.sa:hover:after { opacity: 1; }
 
 width: 900vh;
     height: 400%;
-	   -webkit-transform: scale(1);
+
 }
 	geo:hover img { width: 33.5vh; }
 
@@ -1377,8 +1377,8 @@ a.sa:hover:after { opacity: 1; }
 .header {
 	opacity: 0;
 }
-#123 {
-	    -webkit-transform: scale(0,25);
+#123 {  
+	 -webkit-transform: scale(0,25);
 	}
 
 
