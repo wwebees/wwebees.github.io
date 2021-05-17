@@ -10,8 +10,8 @@ https://wwebees.github.io
 	a { text-decoration: none;
 	color: white;
    	}
-html { overflow-y:  hidden; }
-body { overflow-y:  hidden; }
+
+
 
 /* Burger menu */
 
@@ -1329,7 +1329,7 @@ a.sa:hover:after { opacity: 1; }
 	margin-bottom: 7.5vw;
 	
 }
-
+html { overflow-y:  hidden; }
 }
 
 
