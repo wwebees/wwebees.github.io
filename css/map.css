@@ -19,13 +19,23 @@ width: 100%;
     position: relative;
 	
 }
+
+
+
+
+
+
 /* Burger menu */
 
+
 .burger-menu {
-	position: absolute;
 	visibility: hidden;
+}
+
+#menu__toggle {
 	opacity: 0;
 }
+
 .menu__button_2 {
 display: flex;
     align-items: center;
@@ -38,6 +48,8 @@ display: flex;
     z-index: 1002120000;
 	
 }
+
+
 .menu__button_2 > span, 
 .menu__button_2 > span::before,
 .menu__button_2 > span::after {
@@ -49,7 +61,6 @@ display: flex;
 }
 
 
-
 .menu__button_2 > span::before {
 	content: '';
 	top: -2.2vw;
@@ -58,64 +69,6 @@ display: flex;
 .menu__button_2 > span::after {
 	content: '';
 	top: 2.2vw;
-}
-.menu__item_2 {
-    display: block;
-        margin: 15vw 0vw 0vw 5vw;
-    color: #333;
-    font-family: "Roboto", sans-serif;
-    font-size: 6vw;
-    font-weight: 600;
-    text-decoration: none;
-
-}
-
-.menu__item_2:hover {
-	background-color: #cfd8dc;
-}
-
-
-
-#menu__toggle:checked ~ .menu__button_2 > span {
-	transform: rotate(45deg);
-	background-color: #333;
-}
-
-#menu__toggle:checked ~ .menu__button_2 > span::before {
-  top: 0;
-  transform: rotate(0);
-  background-color: #333;
-}
-#menu__toggle:checked ~ .menu__button_2 > span::after {
-  top: 0;
-  transform: rotate(90deg);
-  background-color: #333;
-}
-
-.burger-menu {
-	position: absolute;
-	visibility: hidden;
-	opacity: 0;
-}
-
-
-#menu__toggle:checked ~ .menu__box {
-  visibility: visible;
-  left: 0;
-}
-
-
-
-
-#menu__toggle {
-	opacity: 0;
-}
-
-
-
-
-
-
 }
 
 .menu__box {
@@ -139,6 +92,52 @@ display: flex;
 	transition: left .4s;
 	z-index: 5000000;
 }
+
+
+.menu__item_2 {
+    display: block;
+        margin: 15vw 0vw 0vw 5vw;
+    color: #333;
+    font-family: "Roboto", sans-serif;
+    font-size: 6vw;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+.menu__item_2:hover {
+	background-color: #cfd8dc;
+}
+
+
+
+
+#menu__toggle:checked ~ .menu__button_2 > span {
+	transform: rotate(45deg);
+	background-color: #333;
+}
+
+#menu__toggle:checked ~ .menu__button_2 > span::before {
+  top: 0;
+  transform: rotate(0);
+  background-color: #333;
+}
+#menu__toggle:checked ~ .menu__button_2 > span::after {
+  top: 0;
+  transform: rotate(90deg);
+  background-color: #333;
+}
+#menu__toggle:checked ~ .menu__box {
+  visibility: visible;
+  left: 0;
+}
+
+
+
+
+
+
+
 
 
 
