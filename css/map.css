@@ -609,7 +609,9 @@ a.sa:hover:after { opacity: 1; }
 	top: -9.6vw;
 	height: 32.6vw;
 }
-#geo:hover img { width: 4.25%; }
+#geo:hover img { width: 4.25%; 
+z-index: 154522252;
+}
 
 
 
@@ -993,7 +995,9 @@ width: 225vh;
     height: 100vh;
 
 }
-	#geo:hover img { width: 9vh; }
+	#geo:hover img { width: 9vh; 
+	z-index: 154522252;
+	}
 
 .geo {
     position: absolute;
