@@ -865,6 +865,9 @@ a.sa:hover:after { opacity: 1; }
    width: 100%;
 }
 
+
+
+
 @media only screen and (max-device-width: 1920) {
 	
 .geo7 {
@@ -915,6 +918,59 @@ a.sa:hover:after { opacity: 1; }
 }
 	
 }
+
+
+@media only screen and (max-device-width: 1680px) {
+	
+.geo7 {
+	position: absolute;
+    top: 52vw;
+	left: 72vw;
+	z-index: 100;
+}
+.geo6 {
+	position: absolute;
+    top: 36vw;
+	left: 92vw;
+	z-index: 100;
+}
+.geo5 {
+	position: absolute;
+    top: 15vw;
+	left: 82vw;
+	z-index: 100;
+}
+.geo4 {
+	position: absolute;
+	top: 8vw;
+	left: 62vw;
+	z-index: 100;
+}
+.geo3 {
+	position: absolute;
+	top: 21vw;
+	left: 53vw;
+    z-index: 100;
+}
+.geo2 {
+	position: absolute;
+	top: 30vw;
+	margin-left: 27.5vw;
+    z-index: 100;
+
+}
+.geo {
+	position: absolute;
+	z-index: 1000;
+    top: 12vw;
+	left: 12vw;
+    z-index: 100;
+    
+	
+}
+	
+}
+
 
 
 
