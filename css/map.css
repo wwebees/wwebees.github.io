@@ -868,7 +868,7 @@ a.sa:hover:after { opacity: 1; }
 
 
 
-@media only screen and (min-device-width: 1920px) {
+@media only screen and (max-device-width: 1920px) {
 	
 .geo7 {
 	position: absolute;
@@ -920,7 +920,7 @@ a.sa:hover:after { opacity: 1; }
 }
 
 
-@media only screen and (min-device-width: 1680px) {
+@media only screen and (max-device-width: 1680px) {
 	
 .geo7 {
 	position: absolute;
