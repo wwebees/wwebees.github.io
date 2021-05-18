@@ -868,7 +868,7 @@ a.sa:hover:after { opacity: 1; }
 
 
 
-@media only screen and (max-device-width: 1920) {
+@media only screen and (min-device-width: 1920) {
 	
 .geo7 {
 	position: absolute;
@@ -920,42 +920,42 @@ a.sa:hover:after { opacity: 1; }
 }
 
 
-@media only screen and (max-device-width: 1680px) {
+@media only screen and (min-device-width: 1680px) {
 	
 .geo7 {
 	position: absolute;
-    top: 52vw;
+    top: 47vw;
 	left: 72vw;
 	z-index: 100;
 }
 .geo6 {
 	position: absolute;
-    top: 36vw;
-	left: 92vw;
+    top: 33vw;
+	left: 90vw;
 	z-index: 100;
 }
 .geo5 {
 	position: absolute;
-    top: 15vw;
-	left: 82vw;
+    top: 13vw;
+	left: 79vw;
 	z-index: 100;
 }
 .geo4 {
 	position: absolute;
-	top: 8vw;
+	top: 7vw;
 	left: 62vw;
 	z-index: 100;
 }
 .geo3 {
 	position: absolute;
-	top: 21vw;
+	top: 20vw;
 	left: 53vw;
     z-index: 100;
 }
 .geo2 {
 	position: absolute;
-	top: 30vw;
-	margin-left: 27.5vw;
+	top: 28vw;
+	margin-left: 30vw;
     z-index: 100;
 
 }
@@ -963,7 +963,7 @@ a.sa:hover:after { opacity: 1; }
 	position: absolute;
 	z-index: 1000;
     top: 12vw;
-	left: 12vw;
+	left: 16vw;
     z-index: 100;
     
 	
