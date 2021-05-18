@@ -514,52 +514,7 @@ z-index: 154522252;
 	margin-top: 4vw;
 	
 }
-.geo7 {
-	position: absolute;
-    top: 40vw;
-	left: 65vw;
-	z-index: 100;
-}
-.geo6 {
-	position: absolute;
-    top: 26vw;
-	left: 85vw;
-	z-index: 100;
-}
-.geo5 {
-	position: absolute;
-    top: 9vw;
-	left: 76vw;
-	z-index: 100;
-}
-.geo4 {
-	position: absolute;
-	top: 5vw;
-	left: 60vw;
-	z-index: 100;
-}
-.geo3 {
-	position: absolute;
-	top: 14vw;
-	left: 52vw;
-    z-index: 100;
-}
-.geo2 {
-	position: absolute;
-	top: 22vw;
-	left: 32vw;
-    z-index: 100;
 
-}
-.geo {
-	position: absolute;
-	z-index: 1000;
-    top: 7vw;
-	left: 20vw;
-    z-index: 100;
-    
-	
-}
 
 .body {
    background: white;
