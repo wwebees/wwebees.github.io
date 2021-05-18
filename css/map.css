@@ -866,63 +866,7 @@ a.sa:hover:after { opacity: 1; }
 
 
 
-@media only screen and (max-device-width: 1920px) and (height: 1080px) {
-	.okean {
- 
-    min-height: 100%;
-}
-.geo {
-    position: absolute;
-    z-index: 1000;
-    top: 12.5vh;
-    left: 45vh;
-    z-index: 100;
-    width: 8vh;
-}
-.geo2 {
-    position: absolute;
-    top: 47.5vh;
-    left: 54vh;
-    z-index: 100;
-    width: 8vh;
-}
-.geo4 {
-    position: absolute;
-    top: 7.5vh;
-    left: 135vh;
-    z-index: 100;
-    width: 8vh;
-}
-.geo3 {
-    position: absolute;
-    top: 30.25vh;
-    left: 117.5vh;
-    width: 8vh;
-    z-index: 100;
-}
-.geo5 {
- position: absolute;
-    top: 20vh;
-    left: 170vh;
-    width: 8vh;
-    z-index: 100;
-}
-.geo6 {
-     position: absolute;
-    top: 57.5vh;
-    left: 192.5vh;
-    z-index: 100;
-    width: 8vh;
 
-}
-.geo7 {
-    position: absolute;
-    top: 83.75vh;
-    left: 155vh;
-    z-index: 100;
-    width: 8vh;
-}	
-}
 
 @media only screen and (max-device-width: 1024px) {
 	
