@@ -872,46 +872,46 @@ a.sa:hover:after { opacity: 1; }
 	
 .geo7 {
 	position: absolute;
-    top: 48vw;
-	left: 68vw;
+    top: 40vw;
+	left: 65vw;
 	z-index: 100;
 }
 .geo6 {
 	position: absolute;
-    top: 33vw;
-	left: 90vw;
+    top: 26vw;
+	left: 85vw;
 	z-index: 100;
 }
 .geo5 {
 	position: absolute;
-    top: 13vw;
-	left: 79vw;
+    top: 9vw;
+	left: 76vw;
 	z-index: 100;
 }
 .geo4 {
 	position: absolute;
-	top: 7vw;
-	left: 61vw;
+	top: 5vw;
+	left: 60vw;
 	z-index: 100;
 }
 .geo3 {
 	position: absolute;
-	top: 19vw;
-	left: 53vw;
+	top: 14vw;
+	left: 52vw;
     z-index: 100;
 }
 .geo2 {
 	position: absolute;
-	top: 28vw;
-	left: 30vw;
+	top: 22vw;
+	left: 32vw;
     z-index: 100;
 
 }
 .geo {
 	position: absolute;
 	z-index: 1000;
-    top: 10vw;
-	left: 17vw;
+    top: 7vw;
+	left: 20vw;
     z-index: 100;
     
 	
