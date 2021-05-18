@@ -516,46 +516,46 @@ z-index: 154522252;
 }
 .geo7 {
 	position: absolute;
-    top: 40vw;
-	left: 65vw;
+    top: 85vh;
+	left: 70vw;
 	z-index: 100;
 }
 .geo6 {
 	position: absolute;
-    top: 26vw;
-	left: 85vw;
+    top: 58vh;
+	left: 87vw;
 	z-index: 100;
 }
 .geo5 {
 	position: absolute;
-    top: 9vw;
+    top: 23vh;
 	left: 76vw;
 	z-index: 100;
 }
 .geo4 {
 	position: absolute;
-	top: 5vw;
-	left: 60vw;
+	top: 10vh;
+	left: 58vw;
 	z-index: 100;
 }
 .geo3 {
 	position: absolute;
-	top: 14vw;
+	top: 32vh;
 	left: 52vw;
     z-index: 100;
 }
 .geo2 {
 	position: absolute;
-	top: 22vw;
-	margin-left: 32vw;
+	top: 48vh;
+	left: 31vw;
     z-index: 100;
 
 }
 .geo {
 	position: absolute;
 	z-index: 1000;
-    top: 7vw;
-	left: 20vw;
+    top: 16vh;
+	left: 18vw;
     z-index: 100;
     
 	
@@ -851,7 +851,7 @@ a.sa:hover:after { opacity: 1; }
 	-webkit-background-size: cover;
     margin: 0;
 	width: 100vw;
-	height: 47vw;
+	min-height: 100%;
 	    position: relative;
 	top: -19;
 }
@@ -866,7 +866,63 @@ a.sa:hover:after { opacity: 1; }
 
 
 
+@media only screen and (max-device-width: 1920px) and (height: 1080px) {
+	.okean {
+ 
+    min-height: 100%;
+}
+.geo {
+    position: absolute;
+    z-index: 1000;
+    top: 12.5vh;
+    left: 45vh;
+    z-index: 100;
+    width: 8vh;
+}
+.geo2 {
+    position: absolute;
+    top: 47.5vh;
+    left: 54vh;
+    z-index: 100;
+    width: 8vh;
+}
+.geo4 {
+    position: absolute;
+    top: 7.5vh;
+    left: 135vh;
+    z-index: 100;
+    width: 8vh;
+}
+.geo3 {
+    position: absolute;
+    top: 30.25vh;
+    left: 117.5vh;
+    width: 8vh;
+    z-index: 100;
+}
+.geo5 {
+ position: absolute;
+    top: 20vh;
+    left: 170vh;
+    width: 8vh;
+    z-index: 100;
+}
+.geo6 {
+     position: absolute;
+    top: 57.5vh;
+    left: 192.5vh;
+    z-index: 100;
+    width: 8vh;
 
+}
+.geo7 {
+    position: absolute;
+    top: 83.75vh;
+    left: 155vh;
+    z-index: 100;
+    width: 8vh;
+}	
+}
 
 @media only screen and (max-device-width: 1024px) {
 	
