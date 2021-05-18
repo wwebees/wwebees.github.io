@@ -955,7 +955,7 @@ a.sa:hover:after { opacity: 1; }
 .geo2 {
 	position: absolute;
 	top: 31vw;
-	margin-left: 28vw;
+	left: 28vw;
     z-index: 100;
 
 }
