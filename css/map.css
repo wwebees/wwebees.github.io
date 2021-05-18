@@ -514,7 +514,52 @@ z-index: 154522252;
 	margin-top: 4vw;
 	
 }
+.geo7 {
+	position: absolute;
+    top: 40vw;
+	left: 65vw;
+	z-index: 100;
+}
+.geo6 {
+	position: absolute;
+    top: 26vw;
+	left: 85vw;
+	z-index: 100;
+}
+.geo5 {
+	position: absolute;
+    top: 9vw;
+	left: 76vw;
+	z-index: 100;
+}
+.geo4 {
+	position: absolute;
+	top: 5vw;
+	left: 60vw;
+	z-index: 100;
+}
+.geo3 {
+	position: absolute;
+	top: 14vw;
+	left: 52vw;
+    z-index: 100;
+}
+.geo2 {
+	position: absolute;
+	top: 22vw;
+	margin-left: 32vw;
+    z-index: 100;
 
+}
+.geo {
+	position: absolute;
+	z-index: 1000;
+    top: 7vw;
+	left: 20vw;
+    z-index: 100;
+    
+	
+}
 
 .body {
    background: white;
@@ -807,7 +852,6 @@ a.sa:hover:after { opacity: 1; }
     margin: 0;
 	width: 100vw;
 	height: 47vw;
-	min-height: 100%;
 	    position: relative;
 	top: -19;
 }
@@ -820,111 +864,6 @@ a.sa:hover:after { opacity: 1; }
    width: 100%;
 }
 
-
-
-
-@media only screen and (max-device-width: 1920px) {
-	
-.geo7 {
-	position: absolute;
-    top: 46vw;
-	left: 69vw;
-	z-index: 100;
-}
-.geo6 {
-	position: absolute;
-    top: 32vw;
-	left: 90vw;
-	z-index: 100;
-}
-.geo5 {
-	position: absolute;
-    top: 12vw;
-	left: 79vw;
-	z-index: 100;
-}
-.geo4 {
-	position: absolute;
-	top: 7vw;
-	left: 60vw;
-	z-index: 100;
-}
-.geo3 {
-	position: absolute;
-	top: 19vw;
-	left: 53vw;
-    z-index: 100;
-}
-.geo2 {
-	position: absolute;
-	top: 28vw;
-	left: 30vw;
-    z-index: 100;
-
-}
-.geo {
-	position: absolute;
-	z-index: 1000;
-    top: 10vw;
-	left: 16vw;
-    z-index: 100;
-    
-	
-}
-	
-}
-
-
-@media only screen and (max-device-width: 1680px) {
-	
-.geo7 {
-	position: absolute;
-    top: 53vw;
-	left: 71vw;
-	z-index: 100;
-}
-.geo6 {
-	position: absolute;
-    top: 36vw;
-	left: 92vw;
-	z-index: 100;
-}
-.geo5 {
-	position: absolute;
-    top: 15vw;
-	left: 83vw;
-	z-index: 100;
-}
-.geo4 {
-	position: absolute;
-	top: 8vw;
-	left: 63vw;
-	z-index: 100;
-}
-.geo3 {
-	position: absolute;
-	top: 22vw;
-	left: 53vw;
-    z-index: 100;
-}
-.geo2 {
-	position: absolute;
-	top: 31vw;
-	left: 28vw;
-    z-index: 100;
-
-}
-.geo {
-	position: absolute;
-	z-index: 1000;
-    top: 11vw;
-	left: 13vw;
-    z-index: 100;
-    
-	
-}
-	
-}
 
 
 
@@ -954,7 +893,7 @@ width: 225vh;
 .geo2 {
     position: absolute;
     top: 47.5vh;
-    left: 72vh;
+    left: 54vh;
     z-index: 100;
     width: 8vh;
 }
