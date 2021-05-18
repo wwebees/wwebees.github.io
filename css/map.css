@@ -924,46 +924,46 @@ a.sa:hover:after { opacity: 1; }
 	
 .geo7 {
 	position: absolute;
-    top: 47vw;
-	left: 72vw;
+    top: 53vw;
+	left: 71vw;
 	z-index: 100;
 }
 .geo6 {
 	position: absolute;
-    top: 33vw;
-	left: 90vw;
+    top: 36vw;
+	left: 92vw;
 	z-index: 100;
 }
 .geo5 {
 	position: absolute;
-    top: 13vw;
-	left: 79vw;
+    top: 15vw;
+	left: 83vw;
 	z-index: 100;
 }
 .geo4 {
 	position: absolute;
-	top: 7vw;
-	left: 62vw;
+	top: 8vw;
+	left: 63vw;
 	z-index: 100;
 }
 .geo3 {
 	position: absolute;
-	top: 20vw;
+	top: 22vw;
 	left: 53vw;
     z-index: 100;
 }
 .geo2 {
 	position: absolute;
-	top: 28vw;
-	margin-left: 30vw;
+	top: 31vw;
+	margin-left: 28vw;
     z-index: 100;
 
 }
 .geo {
 	position: absolute;
 	z-index: 1000;
-    top: 12vw;
-	left: 16vw;
+    top: 11vw;
+	left: 13vw;
     z-index: 100;
     
 	
