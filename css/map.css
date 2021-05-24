@@ -874,7 +874,7 @@ a.sa:hover:after { opacity: 1; }
 #okean {
 
 width: 225vh;
-    height: 100%;
+    height: 100vh;
 	    overflow-y: hidden;
 
 }
